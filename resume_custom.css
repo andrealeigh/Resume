@@ -23,10 +23,6 @@ body {
   margin-left: 10px;
 }
 
-.close-work-experience {
-  margin-right: 5px;
-}
-
-.btn-work-experience {
+#btn-work-experience-1, #btn-work-experience-2 {
   margin-top: 5px;
 }
