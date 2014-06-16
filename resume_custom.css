@@ -26,3 +26,11 @@ body {
 #btn-work-experience-1, #btn-work-experience-2 {
   margin-top: 5px;
 }
+
+th {
+font-family: 'Marcellus SC', serif;
+}
+
+h1 {
+font-family: 'Old Standard TT', serif;
+}
