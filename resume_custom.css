@@ -1,6 +1,11 @@
 
 body {
-  padding-top: 70px;
+  padding-top: 30px;
+  background-color: #DCE6E8;
+}
+
+#home {
+  padding-top: 0;
   background-color: #DCE6E8;
 }
 
