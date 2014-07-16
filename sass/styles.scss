@@ -1,0 +1,22 @@
+
+$btn-default-bg:     #7A9EA4;
+$btn-default-color:  #DCE6E8;
+
+$table-bg-hover:     #E1E4EF;
+//
+// #btn-work-experience-1 {
+//   margin-right: 50 px;
+// }
+
+table
+  tbody
+    tr
+      td
+        a.btn.btn-default {
+            margin-left: 2px;
+
+          }
+
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
