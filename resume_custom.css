@@ -19,20 +19,6 @@ body {
   margin-right: auto;
 }
 
-.col-md-10 {
-  padding-top: 50px;
-}
-
-.col-md-4, .col-xs-6 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.skills-list {
-  margin-left: 10px;
-}
-
-
 h1 {
 font-family: 'Old Standard TT', serif;
 }

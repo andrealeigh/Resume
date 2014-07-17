@@ -14,6 +14,21 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
     font-size: $navbar-font-size; /*font size of navbar links*/
   }
 
+// $h1-font-family: 'Old Standard TT', serif;
+
+// h1 {
+//   font-family: $h1-font-family;
+// }
+
+.col-md-4, .col-xs-6 { /*adds spacing between rows for portfolio thumbnails*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.col-md-10 {
+  padding-top: 50px; /*provides padding between the home container and the panel body*/
+}
+
 $btn-default-bg:     #7A9EA4; /*background color of buttons in table*/
 $btn-default-color:  #DCE6E8; /*text color of buttons in table*/
 
@@ -35,6 +50,11 @@ table
         a.btn.btn-default {
           float: right; /*aligns the buttons within the table*/
         }
+
+.skills-list {
+  margin-left: 10px; /*aligns core skills bullets to the bullets in the table*/
+}
+
 
 @import "bootstrap-compass";
 @import "bootstrap-variables";
