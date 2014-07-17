@@ -13,14 +13,14 @@
   /*font size of navbar links*/
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 19, ../sass/styles.scss */
 .col-md-4, .col-xs-6 {
   /*adds spacing between rows for portfolio thumbnails*/
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 .col-md-10 {
   padding-top: 50px;
   /*provides padding between the home container and the panel body*/
@@ -31,7 +31,7 @@
 /*background color when hovering over table columns*/
 /*variable for table heading font*/
 /*variable for navbar font size*/
-/* line 43, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 table
 thead
 tr
@@ -42,7 +42,7 @@ th {
   /*font size of table heading*/
 }
 
-/* line 50, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 tbody
 tr
 td
@@ -51,7 +51,7 @@ a.btn.btn-default {
   /*aligns the buttons within the table*/
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 .skills-list {
   margin-left: 10px;
   /*aligns core skills bullets to the bullets in the table*/
@@ -1576,7 +1576,7 @@ hr {
 /* line 10, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "Old Standard TT", serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;

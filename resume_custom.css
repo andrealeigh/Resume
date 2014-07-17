@@ -3,22 +3,3 @@ body {
   padding-top: 30px;
   background-color: #DCE6E8;
 }
-
-#home {
-  padding-top: 0;
-  background-color: #DCE6E8;
-}
-
-.jumbotron {
-  background-color: #FFFFFF;
-
-}
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1 {
-font-family: 'Old Standard TT', serif;
-}
