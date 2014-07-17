@@ -1,3 +1,18 @@
+// $body-bg: #DCE6E8;
+
+$navbar-default-bg: #767D94; /*background color of the navbar*/
+$navbar-default-link-color: #DDEAEC; /*color of the navbar links*/
+$navbar-default-link-active-bg: #E1E4EF; /*color of active background when you scroll*/
+$navbar-default-link-active-color: #767D94; /*color of active navbar links when you scroll*/
+
+$navbar-font-family: 'Alegreya Sans SC', sans-serif; /*variable for navbar font*/
+$navbar-font-size: 16px; /*variable for navbar font size*/
+
+.navbar-default
+  .navbar-nav>li>a, .navbar-text {
+    font-family: $navbar-font-family; /*font of navbar links*/
+    font-size: $navbar-font-size; /*font size of navbar links*/
+  }
 
 $btn-default-bg:     #7A9EA4;
 $btn-default-color:  #DCE6E8;
