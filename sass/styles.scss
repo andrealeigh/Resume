@@ -14,17 +14,26 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
     font-size: $navbar-font-size; /*font size of navbar links*/
   }
 
-$btn-default-bg:     #7A9EA4;
-$btn-default-color:  #DCE6E8;
+$btn-default-bg:     #7A9EA4; /*background color of buttons in table*/
+$btn-default-color:  #DCE6E8; /*text color of buttons in table*/
 
-$table-bg-hover:     #E1E4EF;
+$table-bg-hover:     #E1E4EF; /*background color when hovering over table columns*/
+
+$table-heading-font-family: 'Playfair Display SC', serif; /*variable for table heading font*/
+$table-heading-font-size: 16px; /*variable for navbar font size*/
 
 table
+  thead
+    tr
+      th {
+        font-family: $table-heading-font-family; /*font of table heading*/
+        font-size: $table-heading-font-size; /*font size of table heading*/
+      }
   tbody
     tr
       td
         a.btn.btn-default {
-          float: right;
+          float: right; /*aligns the buttons within the table*/
         }
 
 @import "bootstrap-compass";
