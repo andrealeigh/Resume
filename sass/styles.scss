@@ -1,4 +1,9 @@
-// $body-bg: #DCE6E8;
+$body-bg: #DCE6E8; /*variable for body background color*/
+
+body { /*background color and padding for body*/
+    background-color: $body-bg;
+    padding-top: 30px;
+}
 
 $navbar-default-bg: #767D94; /*background color of the navbar*/
 $navbar-default-link-color: #DDEAEC; /*color of the navbar links*/
@@ -14,7 +19,13 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
     font-size: $navbar-font-size; /*font size of navbar links*/
   }
 
-$headings-font-family: 'Old Standard TT', serif;
+$headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
+
+$thumbnail-bg: #FFFFFF; /*variable for img-thumbnail background color*/
+
+.img-thumbnail {
+  background-color: $thumbnail-bg; /*changes background color for thumbnails and home div back to white--for some reason the body bg affected these bgs*/
+}
 
 .col-md-4, .col-xs-6 { /*adds spacing between rows for portfolio thumbnails*/
   margin-top: 20px;
