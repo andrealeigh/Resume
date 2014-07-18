@@ -73,11 +73,7 @@ a.btn.btn-default {
   /*aligns core skills bullets to the bullets in the table*/
 }
 
-/* line 67, ../sass/styles.scss */
-.navbar-default .navbar-text {
-  color: #ddeaec;
-}
-
+/*text color for the navbar, but this is only applying to the footer bc the top navbar text are links*/
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -5555,7 +5551,7 @@ tbody.collapse.in {
 }
 /* line 407, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
-  color: #777777;
+  color: #ddeaec;
 }
 /* line 412, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
