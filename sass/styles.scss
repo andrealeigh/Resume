@@ -62,6 +62,7 @@ table
   margin-left: 10px; /*aligns core skills bullets to the bullets in the table*/
 }
 
+$navbar-default-color: #DDEAEC; /*text color for the navbar, but this is only applying to the footer bc the top navbar text are links*/
 
 @import "bootstrap-compass";
 @import "bootstrap-variables";
