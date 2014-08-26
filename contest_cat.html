@@ -47,12 +47,11 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="page-header">
-              <h1>Portfolio: Draw a Starry Night</h1>
+              <h1>Portfolio: Design is...all about cats!</h1>
             </div> <!--.page-header-->
-            <p>Created via ProcessingJS</p>
-            <p>Inspired by Khan Academy's <a href="https://www.khanacademy.org/computing/cs/programming/arrays/p/challenge-constellation-maker">"Challenge: Constellation Maker" course project</a> from <a href="https://www.khanacademy.org/computing/cs/programming">Intro to JS: Drawing &amp; Animation</a>.</p>
-            <p><b>DIRECTIONS:</b> Click on the blank canvas to place stars in the sky!</p>
-            <canvas id="mycanvas" width="400" height="400"></canvas>
+            <p>Created via Adobe Illustrator CC</p>
+            <p>Contest entry for <a href="https://dribbble.com/shots/1650934-Design-is-Official-Shopify-Dribbble-Playoff">"Design is..." Official Shopify + Dribbble Playoff</a>.</p>
+            <img src="Designer_cat.jpg" class="img-responsive img-thumbnail" alt="Designer cat">
           </div> <!--.panel-body-->
         </div><!--.panel panel-default-->
       </div><!--.col-md-10-->
@@ -87,32 +86,6 @@
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/processing.js"></script>
-  <script>
-    var project1 = function(processing) {
-      with(processing) {
-        size(400,400);
-        var xPositions = [100, 150];
-        var yPositions = [200, 150];
-        var starImage = loadImage("star.jpg");
-        var drawStars = function() {
-            background(9, 5, 59);
-            imageMode(CENTER);
-            for (var i = 0; i < yPositions.length; i++) {
-                image(starImage, xPositions[i], yPositions[i], 30, 30);
-            }
-        };
-        drawStars();
-        var mouseClicked = function() {
-                xPositions.push(mouseX);
-                yPositions.push(mouseY);
-                drawStars();
-        };
-      };
-    };
-    var canvas = document.getElementById("mycanvas");
-    var processing = new Processing(canvas, project1);
-  </script>
-
 
   </body>
 
