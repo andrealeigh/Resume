@@ -1,9 +1,3 @@
-$body-bg: #DCE6E8; /*variable for body background color*/
-
-body { /*background color and padding for body*/
-    background-color: $body-bg;
-    padding-top: 50px;
-}
 
 $navbar-default-bg: #767D94; /*background color of the navbar*/
 $navbar-default-link-color: #DDEAEC; /*color of the navbar links*/
@@ -19,31 +13,43 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
     font-size: $navbar-font-size; /*font size of navbar links*/
   }
 
-#home {
-  background-color: black;
+body { /*background color and padding for body*/
+    background-color: #DCE6E8;
+    padding-top: 50px;
 }
 
-.col-md-1 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+#home {
+  background-color: black;
+  .col-md-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 $headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
 
-$thumbnail-bg: #FFFFFF; /*variable for img-thumbnail background color*/
-
-.img-thumbnail {
-  background-color: $thumbnail-bg; /*changes background color for thumbnails and home div back to white--for some reason the body bg affected these bgs*/
-}
-
-.col-md-4, .col-xs-6 { /*adds spacing between rows for portfolio thumbnails*/
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .col-md-10 {
   padding-top: 50px; /*provides padding between the home container and the panel body*/
 }
+
+#portfolio {
+  $thumbnail-bg: #FFFFFF; /*variable for img-thumbnail background color*/
+  .img-thumbnail {
+    background-color: $thumbnail-bg; /*changes background color for thumbnails and home div back to white--for some reason the body bg affected these bgs*/
+  }
+  .col-md-4, .col-xs-6 { /*adds spacing between rows for portfolio thumbnails*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+#core-skills {
+  .skills-list {
+    margin-left: 10px; /*aligns core skills bullets to the bullets in the table*/
+  }
+}
+
+/*The following applies to tables in sections: Core Skills, Work Experience, Education*/
 
 $btn-default-bg:     #7A9EA4; /*background color of buttons in table*/
 $btn-default-color:  #DCE6E8; /*text color of buttons in table*/
@@ -52,6 +58,8 @@ $table-bg-hover:     #E1E4EF; /*background color when hovering over table column
 
 $table-heading-font-family: 'Playfair Display SC', serif; /*variable for table heading font*/
 $table-heading-font-size: 16px; /*variable for navbar font size*/
+
+$navbar-default-color: #DDEAEC; /*text color for the navbar, but this is only applying to the footer bc the top navbar text are links*/
 
 table
   thead
@@ -66,12 +74,6 @@ table
         a.btn.btn-default {
           float: right; /*aligns the buttons within the table*/
         }
-
-.skills-list {
-  margin-left: 10px; /*aligns core skills bullets to the bullets in the table*/
-}
-
-$navbar-default-color: #DDEAEC; /*text color for the navbar, but this is only applying to the footer bc the top navbar text are links*/
 
 @import "bootstrap-compass";
 @import "bootstrap-variables";
