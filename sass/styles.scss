@@ -19,6 +19,15 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
     font-size: $navbar-font-size; /*font size of navbar links*/
   }
 
+#home {
+  background-color: black;
+}
+
+.col-md-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 $headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
 
 $thumbnail-bg: #FFFFFF; /*variable for img-thumbnail background color*/

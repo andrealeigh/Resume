@@ -21,22 +21,33 @@ body {
   /*font size of navbar links*/
 }
 
+/* line 22, ../sass/styles.scss */
+#home {
+  background-color: black;
+}
+
+/* line 26, ../sass/styles.scss */
+.col-md-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /*changes font-family for h1*/
 /*variable for img-thumbnail background color*/
-/* line 26, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 .img-thumbnail {
   background-color: white;
   /*changes background color for thumbnails and home div back to white--for some reason the body bg affected these bgs*/
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .col-md-4, .col-xs-6 {
   /*adds spacing between rows for portfolio thumbnails*/
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 .col-md-10 {
   padding-top: 50px;
   /*provides padding between the home container and the panel body*/
@@ -47,7 +58,7 @@ body {
 /*background color when hovering over table columns*/
 /*variable for table heading font*/
 /*variable for navbar font size*/
-/* line 50, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 table
 thead
 tr
@@ -58,7 +69,7 @@ th {
   /*font size of table heading*/
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 tbody
 tr
 td
@@ -67,7 +78,7 @@ a.btn.btn-default {
   /*aligns the buttons within the table*/
 }
 
-/* line 61, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .skills-list {
   margin-left: 10px;
   /*aligns core skills bullets to the bullets in the table*/
@@ -442,8 +453,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.eot);
-  src: url(/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.woff) format("woff"), url(/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.ttf) format("truetype"), url(/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
+  src: url(/css/fonts/bootstrap/glyphicons-halflings-regular.eot);
+  src: url(/css/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(/css/fonts/bootstrap/glyphicons-halflings-regular.woff) format("woff"), url(/css/fonts/bootstrap/glyphicons-halflings-regular.ttf) format("truetype"), url(/css/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
 
 /* line 25, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_glyphicons.scss */
