@@ -1,21 +1,29 @@
 $border-radius-base: 0; /*changes border-radius of panel-body, thumnails, buttons*/
 
-$navbar-default-bg: white; /*background color of the navbar*/
+$navbar-default-bg: rgba(255, 255, 255, 0.8); /*background color of the navbar*/
 $navbar-default-link-color: black; /*color of the navbar links*/
-$navbar-default-link-active-bg: black; /*color of active background when you scroll*/
-$navbar-default-link-active-color: white; /*color of active navbar links when you scroll*/
+$navbar-default-link-active-bg: white; /*color of active background when you scroll*/
+$navbar-default-link-active-color: black; /*color of active navbar links when you scroll*/
+$navbar-default-link-active-border: blue;
 
 $navbar-font-family: 'Alegreya Sans SC', sans-serif; /*variable for navbar font*/
 $navbar-font-size: 16px; /*variable for navbar font size*/
 
-.navbar-default
+.navbar-default {
   .navbar-nav>li>a, .navbar-text {
     font-family: $navbar-font-family; /*font of navbar links*/
     font-size: $navbar-font-size; /*font size of navbar links*/
   }
+  li.active, #contact:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+  }
+}
+
 
 body { /*background color and padding for body*/
-    background-color: #DCE6E8;
+    background-color: white;
     padding-top: 50px;
 }
 
@@ -52,28 +60,31 @@ $headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
 
 /*The following applies to tables in sections: Core Skills, Work Experience, Education*/
 
-$btn-default-bg:     #7A9EA4; /*background color of buttons in table*/
-$btn-default-color:  #DCE6E8; /*text color of buttons in table*/
+$btn-default-bg: white; /*background color of buttons in table*/
+$btn-default-color: black; /*text color of buttons in table*/
+$btn-default-border: black;
 
 $table-bg-hover:     #E1E4EF; /*background color when hovering over table columns*/
-
-$table-heading-font-family: 'Playfair Display SC', serif; /*variable for table heading font*/
-$table-heading-font-size: 16px; /*variable for navbar font size*/
-
-$navbar-default-color: #DDEAEC; /*text color for the navbar, but this is only applying to the footer bc the top navbar text are links*/
 
 table
   thead
     tr
       th {
-        font-family: $table-heading-font-family; /*font of table heading*/
-        font-size: $table-heading-font-size; /*font size of table heading*/
+        // font-family: sans-serif; /*font of table heading*/
+        // font-size: 18px; /*font size of table heading*/
       }
   tbody
     tr
       td
         a.btn.btn-default {
           float: right; /*aligns the buttons within the table*/
+          &:hover {
+            color: white;
+            background-color: blue;
+            border-style: solid;
+            border-width: 1px;
+            border-color: blue;
+            }
         }
 
 @import "bootstrap-compass";

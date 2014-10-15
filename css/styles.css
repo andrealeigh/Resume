@@ -5,56 +5,61 @@
 /*color of active navbar links when you scroll*/
 /*variable for navbar font*/
 /*variable for navbar font size*/
-/* line 12, ../sass/styles.scss */
-.navbar-default
-.navbar-nav > li > a, .navbar-text {
+/* line 13, ../sass/styles.scss */
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
   font-family: "Alegreya Sans SC", sans-serif;
   /*font of navbar links*/
   font-size: 16px;
   /*font size of navbar links*/
 }
-
 /* line 17, ../sass/styles.scss */
+.navbar-default li.active, .navbar-default #contact:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}
+
+/* line 25, ../sass/styles.scss */
 body {
   /*background color and padding for body*/
-  background-color: #DCE6E8;
+  background-color: white;
   padding-top: 50px;
 }
 
-/* line 22, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 #home {
   background-color: black;
 }
-/* line 24, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 #home .col-md-1 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 /*changes font-family for h1*/
-/* line 32, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
 .col-md-10 {
   padding-top: 50px;
   /*provides padding between the home container and the panel body*/
 }
 
-/* line 36, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 #portfolio {
   /*variable for img-thumbnail background color*/
 }
-/* line 38, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 #portfolio .img-thumbnail {
   background-color: white;
   /*changes background color for thumbnails and home div back to white--for some reason the body bg affected these bgs*/
 }
-/* line 41, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 #portfolio .col-md-4, #portfolio .col-xs-6 {
   /*adds spacing between rows for portfolio thumbnails*/
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 48, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 #core-skills .skills-list {
   margin-left: 10px;
   /*aligns core skills bullets to the bullets in the table*/
@@ -64,21 +69,7 @@ body {
 /*background color of buttons in table*/
 /*text color of buttons in table*/
 /*background color when hovering over table columns*/
-/*variable for table heading font*/
-/*variable for navbar font size*/
-/*text color for the navbar, but this is only applying to the footer bc the top navbar text are links*/
-/* line 68, ../sass/styles.scss */
-table
-thead
-tr
-th {
-  font-family: "Playfair Display SC", serif;
-  /*font of table heading*/
-  font-size: 16px;
-  /*font size of table heading*/
-}
-
-/* line 75, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 tbody
 tr
 td
@@ -86,6 +77,18 @@ a.btn.btn-default {
   float: right;
   /*aligns the buttons within the table*/
 }
+/* line 81, ../sass/styles.scss */
+tbody
+tr
+td
+a.btn.btn-default:hover {
+  color: white;
+  background-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}
+
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_normalize.scss */
@@ -4137,7 +4140,7 @@ select[multiple].input-lg,
 }
 /* line 31, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn:hover, .btn:focus {
-  color: #dce6e8;
+  color: black;
   text-decoration: none;
 }
 /* line 37, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4159,15 +4162,15 @@ select[multiple].input-lg,
 
 /* line 57, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
-  color: #dce6e8;
-  background-color: #7a9ea4;
-  border-color: #cccccc;
+  color: black;
+  background-color: white;
+  border-color: black;
 }
 /* line 15, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  color: #dce6e8;
-  background-color: #5f858c;
-  border-color: #adadad;
+  color: black;
+  background-color: #e6e6e6;
+  border-color: black;
 }
 /* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
@@ -4175,13 +4178,13 @@ select[multiple].input-lg,
 }
 /* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: #7a9ea4;
-  border-color: #cccccc;
+  background-color: white;
+  border-color: black;
 }
 /* line 38, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
-  color: #7a9ea4;
-  background-color: #dce6e8;
+  color: white;
+  background-color: black;
 }
 
 /* line 60, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -5550,8 +5553,8 @@ tbody.collapse.in {
 
 /* line 394, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: white;
-  border-color: #eeeeee;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(238, 238, 238, 0.8);
 }
 /* line 398, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
@@ -5577,8 +5580,8 @@ tbody.collapse.in {
 }
 /* line 424, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 /* line 432, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -5600,12 +5603,12 @@ tbody.collapse.in {
 /* line 451, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #eeeeee;
+  border-color: rgba(238, 238, 238, 0.8);
 }
 /* line 461, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 @media (max-width: 767px) {
   /* line 470, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5619,8 +5622,8 @@ tbody.collapse.in {
   }
   /* line 481, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
   }
   /* line 489, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
