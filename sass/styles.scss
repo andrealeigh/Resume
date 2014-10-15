@@ -87,6 +87,21 @@ table
             }
         }
 
+#footer-1 {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#footer-2 {
+  background-color: #383838;
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
 @import "bootstrap-compass";
 @import "bootstrap-variables";
 @import "bootstrap";

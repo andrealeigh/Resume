@@ -89,6 +89,22 @@ a.btn.btn-default:hover {
   border-color: blue;
 }
 
+/* line 90, ../sass/styles.scss */
+#footer-1 {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 96, ../sass/styles.scss */
+#footer-2 {
+  background-color: #383838;
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_normalize.scss */
@@ -5567,7 +5583,7 @@ tbody.collapse.in {
 }
 /* line 407, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
-  color: #ddeaec;
+  color: #777777;
 }
 /* line 412, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
