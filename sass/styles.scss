@@ -53,9 +53,14 @@ $headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
 }
 
 #core-skills {
+  background-color: blue;
   .skills-list {
     margin-left: 10px; /*aligns core skills bullets to the bullets in the table*/
   }
+}
+
+#education {
+  background-color: green;
 }
 
 /*The following applies to tables in sections: Core Skills, Work Experience, Education*/

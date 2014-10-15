@@ -59,17 +59,26 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 56, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
+#core-skills {
+  background-color: blue;
+}
+/* line 57, ../sass/styles.scss */
 #core-skills .skills-list {
   margin-left: 10px;
   /*aligns core skills bullets to the bullets in the table*/
+}
+
+/* line 62, ../sass/styles.scss */
+#education {
+  background-color: green;
 }
 
 /*The following applies to tables in sections: Core Skills, Work Experience, Education*/
 /*background color of buttons in table*/
 /*text color of buttons in table*/
 /*background color when hovering over table columns*/
-/* line 79, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 tbody
 tr
 td
@@ -77,7 +86,7 @@ a.btn.btn-default {
   float: right;
   /*aligns the buttons within the table*/
 }
-/* line 81, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 tbody
 tr
 td
@@ -89,14 +98,14 @@ a.btn.btn-default:hover {
   border-color: blue;
 }
 
-/* line 90, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 #footer-1 {
   background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 96, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 #footer-2 {
   background-color: #383838;
   color: white;
