@@ -10,6 +10,7 @@ $navbar-font-family: 'Alegreya Sans SC', sans-serif; /*variable for navbar font*
 $navbar-font-size: 16px; /*variable for navbar font size*/
 
 .navbar-default {
+  display: none;
   .navbar-nav>li>a, .navbar-text {
     font-family: $navbar-font-family; /*font of navbar links*/
     font-size: $navbar-font-size; /*font size of navbar links*/
@@ -24,7 +25,6 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
 
 body { /*background color and padding for body*/
     background-color: white;
-    padding-top: 50px;
 }
 
 #home {
