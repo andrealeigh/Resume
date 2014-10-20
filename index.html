@@ -402,6 +402,17 @@
       <script src="js/bootstrap.js"></script>
       <script src="resume.js"></script>
 
+      <script>
+          window.addEventListener("scroll", function() {
+              if (window.scrollY < 200) {
+                  $('.navbar').fadeOut();
+              }
+              else {
+                  $('.navbar').fadeIn();
+              }
+          },false);
+      </script>
+
   </body>
 
 </html>
