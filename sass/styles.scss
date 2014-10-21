@@ -64,7 +64,16 @@ body {
   }
 }
 
-
+#cv {
+  .col-md-2 {
+    background-color: black;
+    color: white;
+  }
+  .col-md-9 {
+    background-color: green;
+    color: white;
+  }
+}
 /*The following applies to tables in sections: Core Skills, Work Experience, Education*/
 
 

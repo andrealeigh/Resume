@@ -8096,8 +8096,19 @@ body {
   /*aligns core skills bullets to the bullets in the table*/
 }
 
+/* line 68, ../sass/styles.scss */
+#cv .col-md-2 {
+  background-color: black;
+  color: white;
+}
+/* line 72, ../sass/styles.scss */
+#cv .col-md-9 {
+  background-color: green;
+  color: white;
+}
+
 /*The following applies to tables in sections: Core Skills, Work Experience, Education*/
-/* line 83, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 tbody
 tr
 td
@@ -8105,7 +8116,7 @@ a.btn.btn-default {
   float: right;
   /*aligns the buttons within the table*/
 }
-/* line 85, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 tbody
 tr
 td
@@ -8117,24 +8128,24 @@ a.btn.btn-default:hover {
   border-color: blue;
 }
 
-/* line 94, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 #contact {
   background-color: black;
   padding-top: 20px;
   font-family: 'robotothin', sans-serif;
 }
-/* line 98, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 #contact .col-md-4 {
   color: white;
   font-size: 28px;
   padding-bottom: 40px;
 }
-/* line 103, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 #contact .col-md-1 {
   margin-top: 10px;
   padding-bottom: 40px;
 }
-/* line 107, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;
