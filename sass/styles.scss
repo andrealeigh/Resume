@@ -22,9 +22,8 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
   }
 }
 
-
-body { /*background color and padding for body*/
-    background-color: white;
+body {
+    background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
 }
 
 #home {

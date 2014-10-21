@@ -23,11 +23,6 @@
   border-color: blue;
 }
 
-/* line 26, ../sass/styles.scss */
-body {
-  /*background color and padding for body*/
-  background-color: white;
-}
 
 /* line 30, ../sass/styles.scss */
 #home {
@@ -8063,6 +8058,10 @@ button.close {
   .hidden-xs {
     display: none !important;
   }
+}
+/* line 37, ../sass/styles.scss */
+body {
+  background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
 }
 /* line 91, ../sass/styles.scss */
 #contact {
