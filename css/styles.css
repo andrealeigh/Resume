@@ -5,91 +5,10 @@
 /*color of active navbar links when you scroll*/
 /*variable for navbar font*/
 /*variable for navbar font size*/
-/* line 12, ../sass/styles.scss */
-.navbar-default {
-  display: none;
-}
-/* line 14, ../sass/styles.scss */
-.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
-  font-family: "Alegreya Sans SC", sans-serif;
-  /*font of navbar links*/
-  font-size: 16px;
-  /*font size of navbar links*/
-}
-/* line 18, ../sass/styles.scss */
-.navbar-default li.active, .navbar-default #contact:hover {
-  border-style: solid;
-  border-width: 1px;
-  border-color: blue;
-}
-
-
-/* line 30, ../sass/styles.scss */
-#home {
-  background-color: black;
-}
-/* line 32, ../sass/styles.scss */
-#home .col-md-1 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 /*changes font-family for h1*/
-/* line 40, ../sass/styles.scss */
-.col-md-10 {
-  padding-top: 50px;
-  /*provides padding between the home container and the panel body*/
-}
-
-/* line 44, ../sass/styles.scss */
-#portfolio {
-  /*variable for img-thumbnail background color*/
-}
-/* line 46, ../sass/styles.scss */
-#portfolio .img-thumbnail {
-  background-color: white;
-  /*changes background color for thumbnails and home div back to white--for some reason the body bg affected these bgs*/
-}
-/* line 49, ../sass/styles.scss */
-#portfolio .col-md-4, #portfolio .col-xs-6 {
-  /*adds spacing between rows for portfolio thumbnails*/
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-/* line 55, ../sass/styles.scss */
-#core-skills {
-  background-color: blue;
-}
-/* line 57, ../sass/styles.scss */
-#core-skills .skills-list {
-  margin-left: 10px;
-  /*aligns core skills bullets to the bullets in the table*/
-}
-
-/*The following applies to tables in sections: Core Skills, Work Experience, Education*/
 /*background color of buttons in table*/
 /*text color of buttons in table*/
 /*background color when hovering over table columns*/
-/* line 81, ../sass/styles.scss */
-tbody
-tr
-td
-a.btn.btn-default {
-  float: right;
-  /*aligns the buttons within the table*/
-}
-/* line 83, ../sass/styles.scss */
-tbody
-tr
-td
-a.btn.btn-default:hover {
-  color: white;
-  background-color: blue;
-  border-style: solid;
-  border-width: 1px;
-  border-color: blue;
-}
 
 /* line 92, ../sass/styles.scss */
 #footer-1 {
@@ -8059,10 +7978,6 @@ button.close {
     display: none !important;
   }
 }
-/* line 37, ../sass/styles.scss */
-body {
-  background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
-}
 /* line 91, ../sass/styles.scss */
 #contact {
   background-color: black;
@@ -8153,3 +8068,76 @@ body {
     display: none !important;
   }
 }
+/* line 24, ../sass/styles.scss */
+.navbar-default {
+  display: none;
+}
+/* line 26, ../sass/styles.scss */
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
+  font-family: "Alegreya Sans SC", sans-serif;
+  /*font of navbar links*/
+  font-size: 16px;
+  /*font size of navbar links*/
+}
+/* line 30, ../sass/styles.scss */
+.navbar-default li.active, .navbar-default #contact:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}
+
+/* line 37, ../sass/styles.scss */
+body {
+  background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
+}
+
+/* line 41, ../sass/styles.scss */
+#home {
+  background-color: black;
+}
+/* line 43, ../sass/styles.scss */
+#home .col-md-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 50, ../sass/styles.scss */
+.col-md-10 {
+  padding-top: 50px;
+  /*provides padding between the home container and the panel body*/
+}
+
+/* line 55, ../sass/styles.scss */
+#portfolio .col-md-4, #portfolio .col-xs-6 {
+  /*adds spacing between rows for portfolio thumbnails*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 62, ../sass/styles.scss */
+#core-skills .skills-list {
+  margin-left: 10px;
+  /*aligns core skills bullets to the bullets in the table*/
+}
+
+/*The following applies to tables in sections: Core Skills, Work Experience, Education*/
+/* line 83, ../sass/styles.scss */
+tbody
+tr
+td
+a.btn.btn-default {
+  float: right;
+  /*aligns the buttons within the table*/
+}
+/* line 85, ../sass/styles.scss */
+tbody
+tr
+td
+a.btn.btn-default:hover {
+  color: white;
+  background-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}
+

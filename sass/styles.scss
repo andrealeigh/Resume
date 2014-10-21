@@ -9,6 +9,18 @@ $navbar-default-link-active-border: blue;
 $navbar-font-family: 'Alegreya Sans SC', sans-serif; /*variable for navbar font*/
 $navbar-font-size: 16px; /*variable for navbar font size*/
 
+$headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
+
+$btn-default-bg: white; /*background color of buttons in table*/
+$btn-default-color: black; /*text color of buttons in table*/
+$btn-default-border: black;
+
+$table-bg-hover:  #E1E4EF; /*background color when hovering over table columns*/
+
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+
 .navbar-default {
   display: none;
   .navbar-nav>li>a, .navbar-text {
@@ -34,17 +46,12 @@ body {
   }
 }
 
-$headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
 
 .col-md-10 {
   padding-top: 50px; /*provides padding between the home container and the panel body*/
 }
 
 #portfolio {
-  $thumbnail-bg: #FFFFFF; /*variable for img-thumbnail background color*/
-  .img-thumbnail {
-    background-color: $thumbnail-bg; /*changes background color for thumbnails and home div back to white--for some reason the body bg affected these bgs*/
-  }
   .col-md-4, .col-xs-6 { /*adds spacing between rows for portfolio thumbnails*/
     margin-top: 20px;
     margin-bottom: 20px;
@@ -52,7 +59,6 @@ $headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
 }
 
 #core-skills {
-  background-color: blue;
   .skills-list {
     margin-left: 10px; /*aligns core skills bullets to the bullets in the table*/
   }
@@ -61,11 +67,6 @@ $headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
 
 /*The following applies to tables in sections: Core Skills, Work Experience, Education*/
 
-$btn-default-bg: white; /*background color of buttons in table*/
-$btn-default-color: black; /*text color of buttons in table*/
-$btn-default-border: black;
-
-$table-bg-hover:     #E1E4EF; /*background color when hovering over table columns*/
 
 table
   thead
@@ -103,7 +104,3 @@ table
   padding-bottom: 30px;
   font-family:  'robotothin', sans-serif;
 }
-
-@import "bootstrap-compass";
-@import "bootstrap-variables";
-@import "bootstrap";
