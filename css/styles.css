@@ -8133,27 +8133,18 @@ a.btn.btn-default:hover {
 /* line 104, ../sass/styles.scss */
 #contact {
   background-color: black;
-  padding-top: 20px;
   font-family: 'robotothin', sans-serif;
 }
 /* line 108, ../sass/styles.scss */
-#contact .col-md-3 {
-  background-color: black;
+#contact .col-md-4 p {
   color: white;
   font-size: 25px;
-  padding-left: 25px;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
-/* line 116, ../sass/styles.scss */
-#contact .col-md-1 {
-  margin-top: 10px;
-  padding-bottom: 40px;
-}
-/* line 120, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 20px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
