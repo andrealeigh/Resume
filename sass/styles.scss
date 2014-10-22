@@ -65,7 +65,7 @@ body {
 }
 
 #cv {
-  .col-md-2 {
+  .col-md-3 {
     background-color: black;
     color: white;
   }
@@ -102,9 +102,12 @@ table
   background-color: black;
   padding-top: 20px;
   font-family:  'robotothin', sans-serif;
-  .col-md-4 {
+  .col-md-3 {
+    background-color: black;
     color: white;
-    font-size: 28px;
+    font-size: 200%;
+    padding-left: 25px;
+    padding-top: 40px;
     padding-bottom: 40px;
   }
   .col-md-1 {

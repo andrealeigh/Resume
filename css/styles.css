@@ -8135,17 +8135,20 @@ a.btn.btn-default:hover {
   font-family: 'robotothin', sans-serif;
 }
 /* line 105, ../sass/styles.scss */
-#contact .col-md-4 {
+#contact .col-md-3 {
+  background-color: black;
   color: white;
-  font-size: 28px;
+  font-size: 200%;
+  padding-left: 25px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 110, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 #contact .col-md-1 {
   margin-top: 10px;
   padding-bottom: 40px;
 }
-/* line 114, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;
