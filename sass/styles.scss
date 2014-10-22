@@ -11,6 +11,9 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
 
 $headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
 
+$font-family-sans-serif: 'robotolight'; /*font-family of body*/
+$font-size-base: 20px; /*font-size of body*/
+
 $btn-default-bg: white; /*background color of buttons in table*/
 $btn-default-color: black; /*text color of buttons in table*/
 $btn-default-border: black;
@@ -101,11 +104,11 @@ table
 #contact {
   background-color: black;
   padding-top: 20px;
-  font-family:  'robotothin', sans-serif;
+  font-family: 'robotothin', sans-serif;
   .col-md-3 {
     background-color: black;
     color: white;
-    font-size: 200%;
+    font-size: $font-size-large;
     padding-left: 25px;
     padding-top: 40px;
     padding-bottom: 40px;
