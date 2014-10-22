@@ -8127,32 +8127,22 @@ body {
   border-width: 1px;
   border-color: blue;
 }
-/* line 94, ../sass/styles.scss */
-#cv .col-md-3 {
-  background-color: black;
-  color: white;
-}
 /* line 98, ../sass/styles.scss */
-#cv .col-md-9 {
-  background-color: green;
-  color: white;
-}
-/* line 101, ../sass/styles.scss */
-#cv .col-md-9 #dates {
+#cv col-md-9 #dates {
   font-size: 12px;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 #contact {
   background-color: black;
   font-family: 'robotothin', sans-serif;
 }
-/* line 111, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 #contact .col-md-4 p {
   color: white;
   font-size: 25px;
 }
-/* line 117, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;

@@ -83,6 +83,8 @@ body {
 }
 
 #cv {
+  background-color: rgba(72, 0, 135, 0.6);
+  color: white;
   a.btn.btn-default {
     &:hover {
       color: white;
@@ -92,13 +94,7 @@ body {
       border-color: blue;
     }
   }
-  .col-md-3 {
-    background-color: black;
-    color: white;
-  }
-  .col-md-9 {
-    background-color: green;
-    color: white;
+  col-md-9 {
     #dates {
       font-size: 12px;
     }
