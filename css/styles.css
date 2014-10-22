@@ -8105,15 +8105,21 @@ body {
 /* line 73, ../sass/styles.scss */
 #about ul {
   list-style-type: none;
-  color: #1b1464;
+  font-family: 'robotoregular', sans-serif;
+  color: #1607B5;
   padding-bottom: 100px;
 }
-/* line 77, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 #about ul p {
   color: white;
 }
 
-/* line 86, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
+#cv {
+  background-color: rgba(72, 0, 135, 0.6);
+  color: white;
+}
+/* line 89, ../sass/styles.scss */
 #cv a.btn.btn-default:hover {
   color: white;
   background-color: blue;
