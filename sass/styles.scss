@@ -14,9 +14,9 @@ $headings-font-family: 'robotoregular', serif; /*changes font-family for heading
 $font-family-sans-serif: 'robotolight'; /*font-family of body*/
 $font-size-base: 20px; /*font-size of body*/
 
-$btn-default-bg: white; /*background color of buttons in table*/
-$btn-default-color: black; /*text color of buttons in table*/
-$btn-default-border: black;
+$btn-default-bg: rgba(72, 0, 135, 0.6); /*background color of buttons in table*/
+$btn-default-color: white; /*text color of buttons in table*/
+$btn-default-border: white;
 
 $table-bg-hover:  #E1E4EF; /*background color when hovering over table columns*/
 
@@ -61,30 +61,18 @@ body {
   }
 }
 
-#about {
+#cv {
   background-color: rgba(47, 88, 242, 0.6);
   color: white;
-  .col-md-9 {
-    p {
+  h1{
+    &:first-child {
       padding-top: 100px;
-      font-size: ceil(($font-size-base * 1.26));
     }
+    padding-top: 50px;
   }
-  ul {
-    list-style-type: none;
-    font-family: 'robotoregular', sans-serif;
-    color: #1607B5;
-    padding-bottom: 100px;
-    p {
-      color: white;
-    }
+  div.col-md-9 {
+    font-size: ceil(($font-size-base * 1.26));
   }
-
-}
-
-#cv {
-  background-color: rgba(72, 0, 135, 0.6);
-  color: white;
   a.btn.btn-default {
     &:hover {
       color: white;
@@ -94,9 +82,15 @@ body {
       border-color: blue;
     }
   }
-  col-md-9 {
-    #dates {
-      font-size: 12px;
+  div.col-md-4 {
+    padding-top: 15px;
+  }
+  div.col-md-8 {
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: white;
+    h4 {
+      small {color: white;}
     }
   }
 }

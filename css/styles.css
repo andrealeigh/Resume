@@ -4061,7 +4061,7 @@ select[multiple].input-lg,
 }
 /* line 31, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn:hover, .btn:focus {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 /* line 37, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4083,15 +4083,15 @@ select[multiple].input-lg,
 
 /* line 57, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
-  color: black;
-  background-color: white;
-  border-color: black;
+  color: white;
+  background-color: rgba(72, 0, 135, 0.6);
+  border-color: white;
 }
 /* line 15, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  color: black;
-  background-color: #e6e6e6;
-  border-color: black;
+  color: white;
+  background-color: rgba(45, 0, 84, 0.6);
+  border-color: #e0e0e0;
 }
 /* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
@@ -4099,13 +4099,13 @@ select[multiple].input-lg,
 }
 /* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: white;
-  border-color: black;
+  background-color: rgba(72, 0, 135, 0.6);
+  border-color: white;
 }
 /* line 38, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
-  color: white;
-  background-color: black;
+  color: rgba(72, 0, 135, 0.6);
+  background-color: white;
 }
 
 /* line 60, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -8093,33 +8093,23 @@ body {
 }
 
 /* line 64, ../sass/styles.scss */
-#about {
+#cv {
   background-color: rgba(47, 88, 242, 0.6);
   color: white;
 }
+/* line 67, ../sass/styles.scss */
+#cv h1 {
+  padding-top: 50px;
+}
 /* line 68, ../sass/styles.scss */
-#about .col-md-9 p {
+#cv h1:first-child {
   padding-top: 100px;
-  font-size: 26px;
 }
 /* line 73, ../sass/styles.scss */
-#about ul {
-  list-style-type: none;
-  font-family: 'robotoregular', sans-serif;
-  color: #1607B5;
-  padding-bottom: 100px;
+#cv div.col-md-9 {
+  font-size: 26px;
 }
-/* line 78, ../sass/styles.scss */
-#about ul p {
-  color: white;
-}
-
-/* line 85, ../sass/styles.scss */
-#cv {
-  background-color: rgba(72, 0, 135, 0.6);
-  color: white;
-}
-/* line 89, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 #cv a.btn.btn-default:hover {
   color: white;
   background-color: blue;
@@ -8127,22 +8117,32 @@ body {
   border-width: 1px;
   border-color: blue;
 }
-/* line 98, ../sass/styles.scss */
-#cv col-md-9 #dates {
-  font-size: 12px;
+/* line 85, ../sass/styles.scss */
+#cv div.col-md-4 {
+  padding-top: 15px;
+}
+/* line 88, ../sass/styles.scss */
+#cv div.col-md-8 {
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+/* line 93, ../sass/styles.scss */
+#cv div.col-md-8 h4 small {
+  color: white;
 }
 
-/* line 104, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 #contact {
   background-color: black;
   font-family: 'robotothin', sans-serif;
 }
-/* line 108, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 #contact .col-md-4 p {
   color: white;
   font-size: 25px;
 }
-/* line 114, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;
