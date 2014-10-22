@@ -5,7 +5,7 @@
 /*color of active navbar links when you scroll*/
 /*variable for navbar font*/
 /*variable for navbar font size*/
-/*changes font-family for headings*/
+/*changes font-family for heading*/
 /*font-family of body*/
 /*font-size of body*/
 /*background color of buttons in table*/
@@ -8113,53 +8113,40 @@ body {
   color: white;
 }
 
-/* line 85, ../sass/styles.scss */
-#cv .col-md-3 {
-  background-color: black;
-  color: white;
-}
-/* line 89, ../sass/styles.scss */
-#cv .col-md-9 {
-  background-color: green;
-  color: white;
-}
-/* line 92, ../sass/styles.scss */
-#cv .col-md-9 #dates {
-  font-size: 12px;
-}
-
-/*The following applies to tables in sections: Core Skills, Work Experience, Education*/
-/* line 110, ../sass/styles.scss */
-tbody
-tr
-td
-a.btn.btn-default {
-  float: right;
-  /*aligns the buttons within the table*/
-}
-/* line 112, ../sass/styles.scss */
-tbody
-tr
-td
-a.btn.btn-default:hover {
+/* line 86, ../sass/styles.scss */
+#cv a.btn.btn-default:hover {
   color: white;
   background-color: blue;
   border-style: solid;
   border-width: 1px;
   border-color: blue;
 }
+/* line 94, ../sass/styles.scss */
+#cv .col-md-3 {
+  background-color: black;
+  color: white;
+}
+/* line 98, ../sass/styles.scss */
+#cv .col-md-9 {
+  background-color: green;
+  color: white;
+}
+/* line 101, ../sass/styles.scss */
+#cv .col-md-9 #dates {
+  font-size: 12px;
+}
 
-/* line 121, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 #contact {
   background-color: black;
   font-family: 'robotothin', sans-serif;
 }
-/* line 125, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 #contact .col-md-4 p {
   color: white;
   font-size: 25px;
 }
-/* line 131, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;
