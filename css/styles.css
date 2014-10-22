@@ -8092,18 +8092,33 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 65, ../sass/styles.scss */
-#core-skills .skills-list {
-  margin-left: 10px;
-  /*aligns core skills bullets to the bullets in the table*/
+/* line 64, ../sass/styles.scss */
+#about {
+  background-color: rgba(47, 88, 242, 0.6);
+  color: white;
+}
+/* line 68, ../sass/styles.scss */
+#about .col-md-9 p {
+  padding-top: 100px;
+  font-size: 26px;
+}
+/* line 73, ../sass/styles.scss */
+#about ul {
+  list-style-type: none;
+  color: #1b1464;
+  padding-bottom: 100px;
+}
+/* line 77, ../sass/styles.scss */
+#about ul p {
+  color: white;
 }
 
-/* line 71, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 #cv .col-md-3 {
   background-color: black;
   color: white;
 }
-/* line 75, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 #cv .col-md-9 {
   background-color: green;
   color: white;

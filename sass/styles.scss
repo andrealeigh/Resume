@@ -61,10 +61,24 @@ body {
   }
 }
 
-#core-skills {
-  .skills-list {
-    margin-left: 10px; /*aligns core skills bullets to the bullets in the table*/
+#about {
+  background-color: rgba(47, 88, 242, 0.6);
+  color: white;
+  .col-md-9 {
+    p {
+      padding-top: 100px;
+      font-size: ceil(($font-size-base * 1.26));
+    }
   }
+  ul {
+    list-style-type: none;
+    color: rgb(27, 20, 100);
+    padding-bottom: 100px;
+    p {
+      color: white;
+    }
+  }
+
 }
 
 #cv {
