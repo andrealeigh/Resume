@@ -8135,14 +8135,8 @@ body {
 /* line 98, ../sass/styles.scss */
 #contact {
   background-color: black;
-  font-family: 'robotothin', sans-serif;
 }
-/* line 102, ../sass/styles.scss */
-#contact .col-md-4 p {
-  color: white;
-  font-size: 25px;
-}
-/* line 108, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;
