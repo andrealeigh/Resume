@@ -5,7 +5,7 @@
 /*color of active navbar links when you scroll*/
 /*variable for navbar font*/
 /*variable for navbar font size*/
-/*changes font-family for h1*/
+/*changes font-family for headings*/
 /*font-family of body*/
 /*font-size of body*/
 /*background color of buttons in table*/
@@ -1530,7 +1530,7 @@ hr {
 /* line 10, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Old Standard TT", serif;
+  font-family: "robotoregular", serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -8123,9 +8123,13 @@ body {
   background-color: green;
   color: white;
 }
+/* line 92, ../sass/styles.scss */
+#cv .col-md-9 #dates {
+  font-size: 12px;
+}
 
 /*The following applies to tables in sections: Core Skills, Work Experience, Education*/
-/* line 93, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 tbody
 tr
 td
@@ -8133,7 +8137,7 @@ a.btn.btn-default {
   float: right;
   /*aligns the buttons within the table*/
 }
-/* line 95, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 tbody
 tr
 td
@@ -8145,17 +8149,17 @@ a.btn.btn-default:hover {
   border-color: blue;
 }
 
-/* line 104, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 #contact {
   background-color: black;
   font-family: 'robotothin', sans-serif;
 }
-/* line 108, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 #contact .col-md-4 p {
   color: white;
   font-size: 25px;
 }
-/* line 113, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;

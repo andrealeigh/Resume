@@ -9,7 +9,7 @@ $navbar-default-link-active-border: blue;
 $navbar-font-family: 'Alegreya Sans SC', sans-serif; /*variable for navbar font*/
 $navbar-font-size: 16px; /*variable for navbar font size*/
 
-$headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
+$headings-font-family: 'robotoregular', serif; /*changes font-family for headings*/
 
 $font-family-sans-serif: 'robotolight'; /*font-family of body*/
 $font-size-base: 20px; /*font-size of body*/
@@ -89,6 +89,9 @@ body {
   .col-md-9 {
     background-color: green;
     color: white;
+    #dates {
+      font-size: 12px;
+    }
   }
 }
 /*The following applies to tables in sections: Core Skills, Work Experience, Education*/
@@ -124,6 +127,7 @@ table
     font-size: $font-size-large;
     }
   }
+
   .col-md-8 {
     color: rgb(108, 111, 118);
     font-family: 'Alegreya Sans SC', sans-serif;
