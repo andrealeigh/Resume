@@ -8130,6 +8130,7 @@ body {
 /* line 93, ../sass/styles.scss */
 #cv div.col-md-8 h4 small {
   color: white;
+  font-family: 'roboto_condensedbold';
 }
 
 /* line 98, ../sass/styles.scss */
