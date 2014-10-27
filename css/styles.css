@@ -4084,13 +4084,13 @@ select[multiple].input-lg,
 /* line 57, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
   color: white;
-  background-color: rgba(72, 0, 135, 0.6);
+  background-color: rgba(0, 44, 207, 0.6);
   border-color: white;
 }
 /* line 15, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   color: white;
-  background-color: rgba(45, 0, 84, 0.6);
+  background-color: rgba(0, 33, 156, 0.6);
   border-color: #e0e0e0;
 }
 /* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -4099,12 +4099,12 @@ select[multiple].input-lg,
 }
 /* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: rgba(72, 0, 135, 0.6);
+  background-color: rgba(0, 44, 207, 0.6);
   border-color: white;
 }
 /* line 38, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
-  color: rgba(72, 0, 135, 0.6);
+  color: rgba(0, 44, 207, 0.6);
   background-color: white;
 }
 
@@ -8094,7 +8094,7 @@ body {
 
 /* line 64, ../sass/styles.scss */
 #cv {
-  background-color: rgba(47, 88, 242, 0.6);
+  background-color: rgba(3, 165, 133, 0.6);
   color: white;
 }
 /* line 67, ../sass/styles.scss */
@@ -8129,7 +8129,9 @@ body {
 }
 /* line 93, ../sass/styles.scss */
 #cv div.col-md-8 h4 small {
-  color: white;
+/* line 97, ../sass/styles.scss */
+#cv div.col-md-8 h3 small {
+  color: #0000c0;
   font-family: 'roboto_condensedbold';
 }
 

@@ -14,7 +14,7 @@ $headings-font-family: 'robotoregular', serif; /*changes font-family for heading
 $font-family-sans-serif: 'robotolight'; /*font-family of body*/
 $font-size-base: 20px; /*font-size of body*/
 
-$btn-default-bg: rgba(72, 0, 135, 0.6); /*background color of buttons in table*/
+$btn-default-bg: rgba(0, 44, 207, 0.6); /*background color of buttons in table*/
 $btn-default-color: white; /*text color of buttons in table*/
 $btn-default-border: white;
 
@@ -62,7 +62,7 @@ body {
 }
 
 #cv {
-  background-color: rgba(47, 88, 242, 0.6);
+  background-color: rgba(3, 165, 133, 0.6);
   color: white;
   h1{
     &:first-child {
@@ -92,8 +92,11 @@ body {
     border-width: 1px;
     border-color: white;
     h4 {
-      small {color: white;}
+    h3 {
+      small {
+         color: rgb(0, 0, 192);
         font-family: 'roboto_condensedbold';
+      }
     }
   }
 }
