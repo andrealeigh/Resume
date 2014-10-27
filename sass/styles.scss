@@ -11,6 +11,8 @@ $navbar-font-size: 16px; /*variable for navbar font size*/
 
 $headings-font-family: 'robotoregular', serif; /*changes font-family for heading*/
 
+$line-height-base: 1.6;
+
 $font-family-sans-serif: 'robotolight'; /*font-family of body*/
 $font-size-base: 20px; /*font-size of body*/
 
@@ -98,7 +100,12 @@ body {
          color: rgb(0, 0, 192);
         font-family: 'roboto_condensedbold';
       }
+      span {
+        display: none;
+        &:hover + h3 {display: block;}
+      }
     }
+    p {line-height: 1em;}
   }
 
 } /*#cv*/
