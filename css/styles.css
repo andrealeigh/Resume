@@ -8096,14 +8096,11 @@ body {
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
   color: white;
+  padding-bottom: 100px;
 }
-/* line 67, ../sass/styles.scss */
-#cv h1 {
-  padding-top: 50px;
-}
-/* line 68, ../sass/styles.scss */
-#cv h1:first-child {
-  padding-top: 100px;
+/* line 70, ../sass/styles.scss */
+#cv div.col-md-9 h1 {
+  margin-top: 100px;
 }
 /* line 73, ../sass/styles.scss */
 #cv div.col-md-9 #about, #cv div.col-md-9 #core-skills {
@@ -8117,29 +8114,33 @@ body {
 #cv div.col-md-9 #employment-blurb a:hover {
   color: #0000c0;
 }
-/* line 85, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 #cv div.col-md-4 {
-  padding-top: 15px;
+  padding-top: 62px;
 }
 /* line 88, ../sass/styles.scss */
 #cv div.col-md-8 {
   border-left-style: solid;
   border-width: 1px;
   border-color: white;
+  padding-top: 25px;
 }
 /* line 93, ../sass/styles.scss */
-#cv div.col-md-8 h4 small {
+#cv div.col-md-8:last-of-type, #cv div.col-md-8:nth-of-type(3) {
+  padding-bottom: 50px;
+}
 /* line 97, ../sass/styles.scss */
 #cv div.col-md-8 h3 small {
   color: #0000c0;
   font-family: 'roboto_condensedbold';
 }
 
-/* line 98, ../sass/styles.scss */
+/*#cv*/
+/* line 110, ../sass/styles.scss */
 #contact {
   background-color: black;
 }
-/* line 100, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'Alegreya Sans SC', sans-serif;
