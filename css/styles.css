@@ -8106,16 +8106,16 @@ body {
   padding-top: 100px;
 }
 /* line 73, ../sass/styles.scss */
-#cv div.col-md-9 {
+#cv div.col-md-9 #about, #cv div.col-md-9 #core-skills {
   font-size: 26px;
 }
 /* line 77, ../sass/styles.scss */
-#cv a.btn.btn-default:hover {
-  color: white;
-  background-color: blue;
-  border-style: solid;
-  border-width: 1px;
-  border-color: blue;
+#cv div.col-md-9 #employment-blurb a {
+  font-family: 'robotoregular', sans-serif;
+}
+/* line 79, ../sass/styles.scss */
+#cv div.col-md-9 #employment-blurb a:hover {
+  color: #0000c0;
 }
 /* line 85, ../sass/styles.scss */
 #cv div.col-md-4 {

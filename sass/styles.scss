@@ -71,15 +71,17 @@ body {
     padding-top: 50px;
   }
   div.col-md-9 {
-    font-size: ceil(($font-size-base * 1.26));
-  }
-  a.btn.btn-default {
-    &:hover {
-      color: white;
-      background-color: blue;
-      border-style: solid;
-      border-width: 1px;
-      border-color: blue;
+    h1 {
+      margin-top: 100px;
+    }
+    #about, #core-skills {
+      font-size: ceil(($font-size-base * 1.26));
+    }
+    #employment-blurb {
+      a {
+        font-family: 'robotoregular', sans-serif;
+        &:hover {color: rgb(0, 0, 192);}
+      }
     }
   }
   div.col-md-4 {
