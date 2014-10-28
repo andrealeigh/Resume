@@ -1,4 +1,3 @@
-$border-radius-base: 0; /*changes border-radius of panel-body, thumnails, buttons*/
 
 $navbar-default-bg: rgba(255, 255, 255, 0.8); /*background color of the navbar*/
 $navbar-default-link-color: black; /*color of the navbar links*/
@@ -6,21 +5,21 @@ $navbar-default-link-active-bg: white; /*color of active background when you scr
 $navbar-default-link-active-color: black; /*color of active navbar links when you scroll*/
 $navbar-default-link-active-border: blue;
 
-$navbar-font-family: 'Alegreya Sans SC', sans-serif; /*variable for navbar font*/
+$navbar-font-family: 'robotoblack', sans-serif; /*variable for navbar font*/
 $navbar-font-size: 16px; /*variable for navbar font size*/
 
 $headings-font-family: 'robotoregular', serif; /*changes font-family for heading*/
 
-$line-height-base: 1.6;
+$line-height-base: 1.6; /*line height of all text*/
 
 $font-family-sans-serif: 'robotolight'; /*font-family of body*/
 $font-size-base: 20px; /*font-size of body*/
 
-$btn-default-bg: rgba(0, 44, 207, 0.6); /*background color of buttons in table*/
+$border-radius-base: 0; /*changes border-radius of panel-body, thumnails, buttons*/
+
+$btn-default-bg: rgb(0, 0, 192); /*background color of buttons in table*/
 $btn-default-color: white; /*text color of buttons in table*/
 $btn-default-border: white;
-
-$table-bg-hover:  #E1E4EF; /*background color when hovering over table columns*/
 
 @import "bootstrap-compass";
 @import "bootstrap-variables";
@@ -40,7 +39,7 @@ $table-bg-hover:  #E1E4EF; /*background color when hovering over table columns*/
 }
 
 body {
-    background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
+    background: url("../graph_paper_BACKGROUND2.svg") no-repeat center center fixed;
 }
 
 #home {
@@ -50,7 +49,6 @@ body {
     padding-bottom: 20px;
   }
 }
-
 
 .col-md-10 {
   padding-top: 50px; /*provides padding between the home container and the panel body*/
@@ -70,13 +68,16 @@ body {
 
   div.col-md-9 {
     h1 {
-      margin-top: 100px;
+      color: rgb(0, 0, 192);
+      margin-top: 50px;
+      &:first-of-type {margin-top:100px;}
     }
     #about, #core-skills {
       font-size: ceil(($font-size-base * 1.26));
     }
     #employment-blurb {
       a {
+        color: white;
         font-family: 'robotoregular', sans-serif;
         &:hover {color: rgb(0, 0, 192);}
       }
@@ -96,13 +97,10 @@ body {
       padding-bottom: 50px;
     }
     h3 {
+      color: rgb(0, 0, 192);
       small {
-         color: rgb(0, 0, 192);
-        font-family: 'roboto_condensedbold';
-      }
-      span {
-        display: none;
-        &:hover + h3 {display: block;}
+        color: white;
+        font-family: 'robotothin_italic', sans-serif;
       }
     }
     p {line-height: 1em;}
@@ -114,7 +112,7 @@ body {
   background-color: black;
   .col-md-8 {
     color: rgb(108, 111, 118);
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'robotoblack', sans-serif;
     font-size: 20px;
     padding-top: 50px;
     padding-bottom: 15px;

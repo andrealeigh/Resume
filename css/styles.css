@@ -1,4 +1,3 @@
-/*changes border-radius of panel-body, thumnails, buttons*/
 /*background color of the navbar*/
 /*color of the navbar links*/
 /*color of active background when you scroll*/
@@ -6,11 +5,12 @@
 /*variable for navbar font*/
 /*variable for navbar font size*/
 /*changes font-family for heading*/
+/*line height of all text*/
 /*font-family of body*/
 /*font-size of body*/
+/*changes border-radius of panel-body, thumnails, buttons*/
 /*background color of buttons in table*/
 /*text color of buttons in table*/
-/*background color when hovering over table columns*/
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -3251,7 +3251,7 @@ th {
 /* line 124, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_tables.scss */
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #e1e4ef;
+  background-color: whitesmoke;
 }
 
 /* line 135, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_tables.scss */
@@ -3280,13 +3280,13 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.active,
 .table > tfoot > tr.active > td,
 .table > tfoot > tr.active > th {
-  background-color: #e1e4ef;
+  background-color: whitesmoke;
 }
 
 /* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
-  background-color: #d0d5e6;
+  background-color: #e8e8e8;
 }
 
 /* line 12, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_table-row.scss */
@@ -4084,13 +4084,13 @@ select[multiple].input-lg,
 /* line 57, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
   color: white;
-  background-color: rgba(0, 44, 207, 0.6);
+  background-color: #0000c0;
   border-color: white;
 }
 /* line 15, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   color: white;
-  background-color: rgba(0, 33, 156, 0.6);
+  background-color: #00008d;
   border-color: #e0e0e0;
 }
 /* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -4099,12 +4099,12 @@ select[multiple].input-lg,
 }
 /* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: rgba(0, 44, 207, 0.6);
+  background-color: #0000c0;
   border-color: white;
 }
 /* line 38, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
-  color: rgba(0, 44, 207, 0.6);
+  color: #0000c0;
   background-color: white;
 }
 
@@ -8046,60 +8046,65 @@ button.close {
     display: none !important;
   }
 }
-/* line 29, ../sass/styles.scss */
+/* line 28, ../sass/styles.scss */
 .navbar-default {
   display: none;
 }
-/* line 31, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: "robotoblack", sans-serif;
   /*font of navbar links*/
   font-size: 16px;
   /*font size of navbar links*/
 }
-/* line 35, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .navbar-default li.active, .navbar-default #contact:hover {
   border-style: solid;
   border-width: 1px;
   border-color: blue;
 }
 
-/* line 42, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
 body {
-  background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
+  background: url("../graph_paper_BACKGROUND2.svg") no-repeat center center fixed;
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 #home {
   background-color: black;
 }
-/* line 48, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 #home .col-md-1 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 55, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 .col-md-10 {
   padding-top: 50px;
   /*provides padding between the home container and the panel body*/
 }
 
-/* line 60, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 #portfolio .col-md-4, #portfolio .col-xs-6 {
   /*adds spacing between rows for portfolio thumbnails*/
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 66, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
   color: white;
   padding-bottom: 100px;
 }
-/* line 72, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 #cv div.col-md-9 h1 {
+  color: #0000c0;
+  margin-top: 50px;
+}
+/* line 73, ../sass/styles.scss */
+#cv div.col-md-9 h1:first-of-type {
   margin-top: 100px;
 }
 /* line 75, ../sass/styles.scss */
@@ -8108,54 +8113,51 @@ body {
 }
 /* line 79, ../sass/styles.scss */
 #cv div.col-md-9 #employment-blurb a {
+  color: white;
   font-family: 'robotoregular', sans-serif;
 }
-/* line 81, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 #cv div.col-md-9 #employment-blurb a:hover {
   color: #0000c0;
 }
-/* line 86, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 #cv div.col-md-4 {
   padding-top: 62px;
 }
-/* line 90, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 #cv div.col-md-8 {
   border-left-style: solid;
   border-width: 1px;
   border-color: white;
   padding-top: 25px;
 }
-/* line 95, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 #cv div.col-md-8:last-of-type, #cv div.col-md-8:nth-of-type(3) {
   padding-bottom: 50px;
 }
 /* line 99, ../sass/styles.scss */
-#cv div.col-md-8 h3 small {
+#cv div.col-md-8 h3 {
   color: #0000c0;
-  font-family: 'roboto_condensedbold';
 }
-/* line 103, ../sass/styles.scss */
-#cv div.col-md-8 h3 span {
-  display: none;
+/* line 101, ../sass/styles.scss */
+#cv div.col-md-8 h3 small {
+  color: white;
+  font-family: 'robotothin_italic', sans-serif;
 }
-/* line 105, ../sass/styles.scss */
-#cv div.col-md-8 h3 span:hover + h3 {
-  display: block;
-}
-/* line 108, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 #cv div.col-md-8 p {
   line-height: 1em;
 }
 
 /*#cv*/
-/* line 113, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 #contact {
   background-color: black;
 }
-/* line 115, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'robotoblack', sans-serif;
   font-size: 20px;
   padding-top: 50px;
   padding-bottom: 15px;
