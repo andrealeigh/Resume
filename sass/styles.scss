@@ -109,6 +109,34 @@ body {
 
 } /*#cv*/
 
+.modal {
+  color: #D3D6EF;
+  font-family: 'robotolight', sans-serif;
+  .modal-header {
+    background-color: #0000C0;
+  }
+  .modal-body {
+    background-color: #0000C0;
+    li {
+      padding-top: 15px;
+      font-size: ceil(($font-size-base * 0.85));
+      }
+  }
+  .modal-footer {
+    background-color:#0000C0;
+    a.btn.btn-default {
+      font-family: 'robotoregular', sans-serif;
+      &:hover {
+        color: #0000C0;
+        border-color: #0000C0;
+        background-color: white;
+      }
+
+    }
+  }
+}
+
+
 #contact {
   background-color: black;
   .col-md-8 {
