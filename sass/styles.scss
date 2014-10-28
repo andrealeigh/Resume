@@ -56,9 +56,9 @@ body {
 }
 
 #portfolio {
-  .col-md-4, .col-xs-6 { /*adds spacing between rows for portfolio thumbnails*/
-    margin-top: 20px;
-    margin-bottom: 20px;
+  .col-md-4, .col-xs-6 {
+    margin-top: 20px; /*adds spacing between rows for portfolio thumbnails*/
+    margin-bottom: 20px; /*adds spacing between rows for portfolio thumbnails*/
   }
 }
 

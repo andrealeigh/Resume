@@ -8088,9 +8088,10 @@ body {
 
 /* line 59, ../sass/styles.scss */
 #portfolio .col-md-4, #portfolio .col-xs-6 {
-  /*adds spacing between rows for portfolio thumbnails*/
   margin-top: 20px;
+  /*adds spacing between rows for portfolio thumbnails*/
   margin-bottom: 20px;
+  /*adds spacing between rows for portfolio thumbnails*/
 }
 
 /* line 65, ../sass/styles.scss */
