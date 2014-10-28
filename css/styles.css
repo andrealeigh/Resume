@@ -8081,80 +8081,81 @@ body {
 
 /* line 53, ../sass/styles.scss */
 .col-md-10 {
-  padding-top: 50px;
-  /*provides padding between the home container and the panel body*/
+  padding-top: 100px;
+  /*padding for portfolio div--not sure why this is not working when I nest it in #portfolio*/
+  padding-bottom: 100px;
 }
 
-/* line 58, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 #portfolio .col-md-4, #portfolio .col-xs-6 {
   /*adds spacing between rows for portfolio thumbnails*/
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 64, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
   color: white;
   padding-bottom: 100px;
 }
-/* line 70, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 #cv div.col-md-9 h1 {
   color: #0000c0;
   margin-top: 50px;
 }
-/* line 73, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 #cv div.col-md-9 h1:first-of-type {
   margin-top: 100px;
 }
-/* line 75, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 #cv div.col-md-9 #about, #cv div.col-md-9 #core-skills {
   font-size: 26px;
 }
-/* line 79, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 #cv div.col-md-9 #employment-blurb a {
   color: white;
   font-family: 'robotoregular', sans-serif;
 }
-/* line 82, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 #cv div.col-md-9 #employment-blurb a:hover {
   color: #0000c0;
 }
-/* line 87, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 #cv div.col-md-4 {
   padding-top: 62px;
 }
-/* line 91, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 #cv div.col-md-8 {
   border-left-style: solid;
   border-width: 1px;
   border-color: white;
   padding-top: 25px;
 }
-/* line 96, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 #cv div.col-md-8:last-of-type, #cv div.col-md-8:nth-of-type(3) {
   padding-bottom: 50px;
 }
-/* line 99, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 #cv div.col-md-8 h3 {
   color: #0000c0;
 }
-/* line 101, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 #cv div.col-md-8 h3 small {
   color: white;
   font-family: 'robotothin_italic', sans-serif;
 }
-/* line 106, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 #cv div.col-md-8 p {
   line-height: 1em;
 }
 
 /*#cv*/
-/* line 111, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 #contact {
   background-color: black;
 }
-/* line 113, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;
