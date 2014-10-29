@@ -8072,7 +8072,7 @@ button.close {
 
 /* line 50, ../sass/styles.scss */
 body {
-  background: url("../graph_paper_BACKGROUND2.svg") no-repeat center center fixed;
+  background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
 }
 
 /* line 54, ../sass/styles.scss */
