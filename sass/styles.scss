@@ -3,7 +3,7 @@ $navbar-default-bg: rgba(255, 255, 255, 0.8); /*background color of the navbar*/
 $navbar-default-link-color: black; /*color of the navbar links*/
 $navbar-default-link-active-bg: white; /*color of active background when you scroll*/
 $navbar-default-link-active-color: black; /*color of active navbar links when you scroll*/
-$navbar-default-link-active-border: blue;
+// $navbar-default-link-active-border: blue;
 
 $navbar-font-family: 'robotoblack', sans-serif; /*variable for navbar font*/
 $navbar-font-size: 16px; /*variable for navbar font size*/
@@ -40,6 +40,10 @@ $btn-default-border: white;
     border-style: solid;
     border-width: 1px;
     border-color: blue;
+  }
+  .navbar-nav>li>a:hover, .navbar-default.navbar-nav>li>a:focus {
+    color: blue;
+    @include transition;
   }
 }
 
@@ -91,7 +95,10 @@ body {
       a {
         color: white;
         font-family: 'robotoregular', sans-serif;
-        &:hover {color: rgb(0, 0, 192);}
+        &:hover {
+          color: rgb(0, 0, 192);
+          @include transition;
+        }
       }
     }
 
@@ -161,6 +168,7 @@ body {
         color: #0000C0;
         border-color: #0000C0;
         background-color: white;
+        @include transition;
       }
     }
   }
