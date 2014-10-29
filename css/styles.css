@@ -8150,46 +8150,50 @@ body {
 #cv div.col-md-8 p {
   line-height: 1em;
 }
+/* line 109, ../sass/styles.scss */
+#cv div.col-md-8 p #acronym {
+  font-family: 'robotothin_italic', sans-serif;
+}
 
 /*#cv*/
-/* line 112, ../sass/styles.scss */
+/* line 115, ../sass/styles.scss */
 .modal {
   color: #D3D6EF;
   font-family: 'robotolight', sans-serif;
 }
-/* line 115, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
 .modal .modal-header {
   background-color: #0000C0;
 }
-/* line 118, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .modal .modal-body {
   background-color: #0000C0;
 }
-/* line 120, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 .modal .modal-body li {
   padding-top: 15px;
   font-size: 17px;
 }
-/* line 125, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 .modal .modal-footer {
   background-color: #0000C0;
 }
-/* line 127, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default {
   font-family: 'robotoregular', sans-serif;
 }
-/* line 129, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default:hover {
   color: #0000C0;
   border-color: #0000C0;
   background-color: white;
 }
 
-/* line 140, ../sass/styles.scss */
+/* line 143, ../sass/styles.scss */
 #contact {
   background-color: black;
 }
-/* line 142, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;

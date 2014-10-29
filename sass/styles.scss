@@ -104,7 +104,10 @@ body {
         font-family: 'robotothin_italic', sans-serif;
       }
     }
-    p {line-height: 1em;}
+    p {
+      line-height: 1em;
+      #acronym {font-family: 'robotothin_italic', sans-serif;}
+      }
   }
 
 } /*#cv*/
