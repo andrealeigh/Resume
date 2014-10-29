@@ -59,6 +59,10 @@ body {
   .col-md-4, .col-xs-6 {
     margin-top: 20px; /*adds spacing between rows for portfolio thumbnails*/
     margin-bottom: 20px; /*adds spacing between rows for portfolio thumbnails*/
+    img:hover {
+      outline: 10px solid blue;
+      transition: all 0.5s ease;
+    }
   }
 }
 
