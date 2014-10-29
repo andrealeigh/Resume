@@ -8046,88 +8046,89 @@ button.close {
     display: none !important;
   }
 }
-/* line 28, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .navbar-default {
   display: none;
 }
-/* line 30, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
   font-family: "robotoblack", sans-serif;
   /*font of navbar links*/
   font-size: 16px;
   /*font size of navbar links*/
 }
-/* line 34, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .navbar-default li.active, .navbar-default #contact:hover {
   border-style: solid;
   border-width: 1px;
   border-color: blue;
 }
 
-/* line 41, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 body {
   background: url("../graph_paper_BACKGROUND2.svg") no-repeat center center fixed;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 #home {
   background-color: black;
 }
-/* line 47, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 #home .col-md-1 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .col-md-10 {
   padding-top: 100px;
   /*padding for portfolio div--not sure why this is not working when I nest it in #portfolio*/
   padding-bottom: 100px;
 }
 
-/* line 59, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 #portfolio .col-md-4, #portfolio .col-xs-6 {
   margin-top: 20px;
   /*adds spacing between rows for portfolio thumbnails*/
   margin-bottom: 20px;
   /*adds spacing between rows for portfolio thumbnails*/
 }
-/* line 62, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 #portfolio .col-md-4 img:hover, #portfolio .col-xs-6 img:hover {
   outline: 10px solid blue;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
   color: white;
   padding-bottom: 50px;
 }
-/* line 75, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 #cv div.col-md-9 h1 {
   color: #0000c0;
   margin-top: 50px;
 }
-/* line 78, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 #cv div.col-md-9 h1:first-of-type {
   margin-top: 100px;
 }
-/* line 81, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 #cv div.col-md-9 #about, #cv div.col-md-9 #core-skills {
   font-size: 26px;
 }
-/* line 86, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 #cv div.col-md-9 #employment-blurb a {
   color: white;
   font-family: 'robotoregular', sans-serif;
 }
-/* line 89, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 #cv div.col-md-9 #employment-blurb a:hover {
   color: #0000c0;
 }
-/* line 93, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 #cv div.col-md-9 a button.btn.btn-default {
   font-family: 'robotoregular', sans-serif;
   width: 100px;
@@ -8137,84 +8138,86 @@ body {
   border-radius: 50px;
   border-width: 2px;
 }
-/* line 101, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 #cv div.col-md-9 a button.btn.btn-default:hover {
   color: #0000C0;
   border-color: #0000C0;
   background-color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
-/* line 110, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 #cv div.col-md-4 {
   padding-top: 62px;
 }
-/* line 114, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 #cv div.col-md-8 {
   border-left-style: solid;
   border-width: 1px;
   border-color: white;
   padding-top: 25px;
 }
-/* line 119, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 #cv div.col-md-8:last-of-type, #cv div.col-md-8:nth-of-type(3) {
   padding-bottom: 50px;
 }
-/* line 122, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 #cv div.col-md-8 h3 {
   color: #0000c0;
 }
-/* line 124, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 #cv div.col-md-8 h3 small {
   color: white;
   font-family: 'robotothin_italic', sans-serif;
 }
-/* line 129, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 #cv div.col-md-8 p {
   line-height: 1em;
 }
-/* line 131, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 #cv div.col-md-8 p #acronym {
   font-family: 'robotothin_italic', sans-serif;
 }
 
 /*#cv*/
-/* line 137, ../sass/styles.scss */
+/* line 143, ../sass/styles.scss */
 .modal {
   color: #D3D6EF;
   font-family: 'robotolight', sans-serif;
 }
-/* line 140, ../sass/styles.scss */
+/* line 146, ../sass/styles.scss */
 .modal .modal-header {
   background-color: #0000C0;
 }
-/* line 143, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .modal .modal-body {
   background-color: #0000C0;
 }
-/* line 145, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 .modal .modal-body li {
   padding-top: 15px;
   font-size: 17px;
 }
-/* line 150, ../sass/styles.scss */
+/* line 156, ../sass/styles.scss */
 .modal .modal-footer {
   background-color: #0000C0;
 }
-/* line 152, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default {
   font-family: 'robotoregular', sans-serif;
 }
-/* line 154, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default:hover {
   color: #0000C0;
   border-color: #0000C0;
   background-color: white;
 }
 
-/* line 164, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 #contact {
   background-color: black;
 }
-/* line 166, ../sass/styles.scss */
+/* line 172, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;

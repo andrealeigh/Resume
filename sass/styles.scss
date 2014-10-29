@@ -25,6 +25,11 @@ $btn-default-border: white;
 @import "bootstrap-variables";
 @import "bootstrap";
 
+@mixin transition {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 .navbar-default {
   display: none;
   .navbar-nav>li>a, .navbar-text {
@@ -61,7 +66,7 @@ body {
     margin-bottom: 20px; /*adds spacing between rows for portfolio thumbnails*/
     img:hover {
       outline: 10px solid blue;
-      transition: all 0.5s ease;
+      @include transition;
     }
   }
 }
@@ -102,9 +107,10 @@ body {
         color: #0000C0;
         border-color: #0000C0;
         background-color: white;
+        @include transition;
       }
     }
-    
+
   }
 
   div.col-md-4 {
