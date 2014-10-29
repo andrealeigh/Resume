@@ -69,7 +69,7 @@ body {
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
   color: white;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 
   div.col-md-9 {
     h1 {
@@ -77,9 +77,11 @@ body {
       margin-top: 50px;
       &:first-of-type {margin-top:100px;}
     }
+
     #about, #core-skills {
       font-size: ceil(($font-size-base * 1.26));
     }
+
     #employment-blurb {
       a {
         color: white;
@@ -87,6 +89,22 @@ body {
         &:hover {color: rgb(0, 0, 192);}
       }
     }
+
+    a button.btn.btn-default {
+      font-family: 'robotoregular', sans-serif;
+      width: 100px;
+      height: 100px;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      border-width: 2px;
+      &:hover {
+        color: #0000C0;
+        border-color: #0000C0;
+        background-color: white;
+      }
+    }
+    
   }
 
   div.col-md-4 {
@@ -138,7 +156,6 @@ body {
         border-color: #0000C0;
         background-color: white;
       }
-
     }
   }
 }
@@ -149,7 +166,6 @@ body {
   .col-md-8 {
     color: rgb(108, 111, 118);
     font-family: 'robotoblack', sans-serif;
-    font-size: 20px;
     padding-top: 50px;
     padding-bottom: 15px;
   }

@@ -8103,7 +8103,7 @@ body {
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
   color: white;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 /* line 75, ../sass/styles.scss */
 #cv div.col-md-9 h1 {
@@ -8114,95 +8114,110 @@ body {
 #cv div.col-md-9 h1:first-of-type {
   margin-top: 100px;
 }
-/* line 80, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 #cv div.col-md-9 #about, #cv div.col-md-9 #core-skills {
   font-size: 26px;
 }
-/* line 84, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 #cv div.col-md-9 #employment-blurb a {
   color: white;
   font-family: 'robotoregular', sans-serif;
 }
-/* line 87, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 #cv div.col-md-9 #employment-blurb a:hover {
   color: #0000c0;
 }
-/* line 92, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
+#cv div.col-md-9 a button.btn.btn-default {
+  font-family: 'robotoregular', sans-serif;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  border-width: 2px;
+}
+/* line 101, ../sass/styles.scss */
+#cv div.col-md-9 a button.btn.btn-default:hover {
+  color: #0000C0;
+  border-color: #0000C0;
+  background-color: white;
+}
+/* line 110, ../sass/styles.scss */
 #cv div.col-md-4 {
   padding-top: 62px;
 }
-/* line 96, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 #cv div.col-md-8 {
   border-left-style: solid;
   border-width: 1px;
   border-color: white;
   padding-top: 25px;
 }
-/* line 101, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 #cv div.col-md-8:last-of-type, #cv div.col-md-8:nth-of-type(3) {
   padding-bottom: 50px;
 }
-/* line 104, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 #cv div.col-md-8 h3 {
   color: #0000c0;
 }
-/* line 106, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 #cv div.col-md-8 h3 small {
   color: white;
   font-family: 'robotothin_italic', sans-serif;
 }
-/* line 111, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 #cv div.col-md-8 p {
   line-height: 1em;
 }
-/* line 113, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 #cv div.col-md-8 p #acronym {
   font-family: 'robotothin_italic', sans-serif;
 }
 
 /*#cv*/
-/* line 119, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .modal {
   color: #D3D6EF;
   font-family: 'robotolight', sans-serif;
 }
-/* line 122, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .modal .modal-header {
   background-color: #0000C0;
 }
-/* line 125, ../sass/styles.scss */
+/* line 143, ../sass/styles.scss */
 .modal .modal-body {
   background-color: #0000C0;
 }
-/* line 127, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 .modal .modal-body li {
   padding-top: 15px;
   font-size: 17px;
 }
-/* line 132, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 .modal .modal-footer {
   background-color: #0000C0;
 }
-/* line 134, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default {
   font-family: 'robotoregular', sans-serif;
 }
-/* line 136, ../sass/styles.scss */
+/* line 154, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default:hover {
   color: #0000C0;
   border-color: #0000C0;
   background-color: white;
 }
 
-/* line 147, ../sass/styles.scss */
+/* line 164, ../sass/styles.scss */
 #contact {
   background-color: black;
 }
-/* line 149, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;
-  font-size: 20px;
   padding-top: 50px;
   padding-bottom: 15px;
 }
