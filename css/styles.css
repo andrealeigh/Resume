@@ -8112,8 +8112,9 @@ body {
   color: white;
   padding-bottom: 50px;
 }
-/* line 84, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 #cv div.col-md-9 h1 {
+  font-family: 'robotoblack', sans-serif;
   color: #0000c0;
   margin-top: 50px;
 }
