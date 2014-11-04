@@ -8075,41 +8075,35 @@ body {
   background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
 }
 
-/* line 55, ../sass/styles.scss */
-#home .col-md-1 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-/* line 61, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 .col-md-10 {
-  padding-top: 100px;
+  padding-top: 50px;
   /*padding for portfolio div--not sure why this is not working when I nest it in #portfolio*/
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
-/* line 67, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 #portfolio div.col-sm-4.col-xs-12 {
-  margin-top: 20px;
+  margin-top: 15px;
   /*adds spacing between rows for portfolio thumbnails*/
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   /*adds spacing between rows for portfolio thumbnails*/
 }
-/* line 70, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 #portfolio div.col-sm-4.col-xs-12 img:hover {
   outline: 10px solid blue;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-/* line 77, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
   color: white;
   padding-bottom: 50px;
 }
-/* line 83, ../sass/styles.scss */
-#cv div.col-md-9 h1 {
+/* line 76, ../sass/styles.scss */
+#cv div.col-md-9.col-xs-12 h1 {
   font-family: 'robotoblack', sans-serif;
   color: #0000c0;
   margin-top: 50px;
@@ -8139,6 +8133,7 @@ body {
   font-family: 'robotoregular', sans-serif;
   width: 100px;
   height: 100px;
+  margin-top: 25px;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
@@ -8188,33 +8183,33 @@ div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row di
   font-family: 'robotothin_italic', sans-serif;
 }
 
-/* line 156, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .modal {
   color: #D3D6EF;
   font-family: 'robotolight', sans-serif;
 }
-/* line 159, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 .modal .modal-header {
   background-color: #0000C0;
 }
-/* line 162, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .modal .modal-body {
   background-color: #0000C0;
 }
-/* line 164, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 .modal .modal-body li {
   padding-top: 15px;
   font-size: 17px;
 }
-/* line 169, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 .modal .modal-footer {
   background-color: #0000C0;
 }
-/* line 171, ../sass/styles.scss */
+/* line 164, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default {
   font-family: 'robotoregular', sans-serif;
 }
-/* line 173, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default:hover {
   color: #0000C0;
   border-color: #0000C0;
@@ -8223,11 +8218,11 @@ div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row di
   transition: all 0.5s ease;
 }
 
-/* line 184, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 #contact {
   background-color: black;
 }
-/* line 186, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 #contact .col-md-8 {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;

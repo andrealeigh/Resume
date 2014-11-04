@@ -51,22 +51,15 @@ body {
     background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
 }
 
-#home {
-  .col-md-1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
 .col-md-10 {
-  padding-top: 100px; /*padding for portfolio div--not sure why this is not working when I nest it in #portfolio*/
-  padding-bottom: 100px;
+  padding-top: 50px; /*padding for portfolio div--not sure why this is not working when I nest it in #portfolio*/
+  padding-bottom: 50px;
 }
 
 #portfolio {
   div.col-sm-4.col-xs-12 {
-    margin-top: 20px; /*adds spacing between rows for portfolio thumbnails*/
-    margin-bottom: 20px; /*adds spacing between rows for portfolio thumbnails*/
+    margin-top: 15px; /*adds spacing between rows for portfolio thumbnails*/
+    margin-bottom: 15px; /*adds spacing between rows for portfolio thumbnails*/
     img:hover {
       outline: 10px solid blue;
       @include transition;
@@ -84,7 +77,6 @@ body {
       font-family: 'robotoblack', sans-serif;
       color: rgb(0, 0, 192);
       margin-top: 50px;
-      &:first-of-type {margin-top:100px;}
     }
 
     #about, #core-skills {
@@ -110,6 +102,7 @@ body {
       font-family: 'robotoregular', sans-serif;
       width: 100px;
       height: 100px;
+      margin-top: 25px;
       -moz-border-radius: 50px;
       -webkit-border-radius: 50px;
       border-radius: 50px;
