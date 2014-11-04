@@ -64,7 +64,7 @@ body {
 }
 
 #portfolio {
-  .col-md-4, .col-xs-6 {
+  div.col-sm-4.col-xs-12 {
     margin-top: 20px; /*adds spacing between rows for portfolio thumbnails*/
     margin-bottom: 20px; /*adds spacing between rows for portfolio thumbnails*/
     img:hover {

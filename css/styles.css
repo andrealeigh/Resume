@@ -8089,14 +8089,14 @@ body {
 }
 
 /* line 67, ../sass/styles.scss */
-#portfolio .col-md-4, #portfolio .col-xs-6 {
+#portfolio div.col-sm-4.col-xs-12 {
   margin-top: 20px;
   /*adds spacing between rows for portfolio thumbnails*/
   margin-bottom: 20px;
   /*adds spacing between rows for portfolio thumbnails*/
 }
 /* line 70, ../sass/styles.scss */
-#portfolio .col-md-4 img:hover, #portfolio .col-xs-6 img:hover {
+#portfolio div.col-sm-4.col-xs-12 img:hover {
   outline: 10px solid blue;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
