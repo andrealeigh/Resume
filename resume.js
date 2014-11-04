@@ -4,3 +4,12 @@ $('td.core-skills').mouseover(function () {
 $('td.core-skills').mouseleave(function () {
   $(this).removeClass('active');
 });
+
+window.addEventListener("scroll", function() {
+    if (window.scrollY < 200) {
+        $('.navbar').fadeOut();
+    }
+    else {
+        $('.navbar').fadeIn();
+    }
+},false);
