@@ -8114,32 +8114,28 @@ body {
   color: #0000c0;
   margin-top: 50px;
 }
-/* line 87, ../sass/styles.scss */
-#cv div.col-md-9 h1:first-of-type {
-  margin-top: 100px;
-}
-/* line 90, ../sass/styles.scss */
-#cv div.col-md-9 #about, #cv div.col-md-9 #core-skills {
+/* line 82, ../sass/styles.scss */
+#cv div.col-md-9.col-xs-12 #about, #cv div.col-md-9.col-xs-12 #core-skills {
   font-size: 26px;
 }
-/* line 92, ../sass/styles.scss */
-#cv div.col-md-9 #about li:nth-of-type(6), #cv div.col-md-9 #core-skills li:nth-of-type(6) {
+/* line 84, ../sass/styles.scss */
+#cv div.col-md-9.col-xs-12 #about li:nth-of-type(6), #cv div.col-md-9.col-xs-12 #core-skills li:nth-of-type(6) {
   color: #0000c0;
   font-family: 'robotoregular', sans-serif;
 }
-/* line 99, ../sass/styles.scss */
-#cv div.col-md-9 #employment-blurb a {
+/* line 91, ../sass/styles.scss */
+#cv div.col-md-9.col-xs-12 #employment-blurb a {
   color: white;
   font-family: 'robotoregular', sans-serif;
 }
-/* line 102, ../sass/styles.scss */
-#cv div.col-md-9 #employment-blurb a:hover {
+/* line 94, ../sass/styles.scss */
+#cv div.col-md-9.col-xs-12 #employment-blurb a:hover {
   color: #0000c0;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 109, ../sass/styles.scss */
-#cv div.col-md-9 a button.btn.btn-default {
+/* line 101, ../sass/styles.scss */
+#cv div.col-md-9.col-xs-12 a button.btn.btn-default {
   font-family: 'robotoregular', sans-serif;
   width: 100px;
   height: 100px;
@@ -8148,47 +8144,47 @@ body {
   border-radius: 50px;
   border-width: 2px;
 }
-/* line 117, ../sass/styles.scss */
-#cv div.col-md-9 a button.btn.btn-default:hover {
+/* line 110, ../sass/styles.scss */
+#cv div.col-md-9.col-xs-12 a button.btn.btn-default:hover {
   color: #0000C0;
   border-color: #0000C0;
   background-color: white;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 127, ../sass/styles.scss */
-#cv div.col-md-4 {
+/* line 120, ../sass/styles.scss */
+#cv div.col-xs-4 {
   padding-top: 62px;
 }
-/* line 131, ../sass/styles.scss */
-#cv div.col-md-8 {
+/* line 124, ../sass/styles.scss */
+#cv div.col-xs-8 {
   border-left-style: solid;
   border-width: 1px;
   border-color: white;
   padding-top: 25px;
 }
-/* line 136, ../sass/styles.scss */
-#cv div.col-md-8:last-of-type, #cv div.col-md-8:nth-of-type(3) {
+/* line 129, ../sass/styles.scss */
+#cv div.col-xs-8:last-of-type, #cv div.col-xs-8:nth-of-type(3) {
   padding-bottom: 50px;
 }
-/* line 139, ../sass/styles.scss */
-#cv div.col-md-8 h3 {
+/* line 132, ../sass/styles.scss */
+#cv div.col-xs-8 h3 {
   color: #0000c0;
 }
-/* line 141, ../sass/styles.scss */
-#cv div.col-md-8 h3 small {
+/* line 134, ../sass/styles.scss */
+#cv div.col-xs-8 h3 small {
   color: white;
   font-family: 'robotothin_italic', sans-serif;
 }
-/* line 146, ../sass/styles.scss */
-#cv div.col-md-8 p {
+/* line 139, ../sass/styles.scss */
+#cv div.col-xs-8 p {
   line-height: 1em;
 }
 
 /*#cv*/
 /*this code would not work nested, aargh Bootstrap! Sets specific /p/ elements to an italic font-family within CV*/
-/* line 154, ../sass/styles.scss */
-div#cv.container-fluid div.row div.col-md-9.col-md-offset-1 div.row div.col-md-8 p#italic {
+/* line 147, ../sass/styles.scss */
+div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row div.col-xs-8 p#italic {
   font-family: 'robotothin_italic', sans-serif;
 }
 

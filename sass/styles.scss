@@ -79,7 +79,7 @@ body {
   color: white;
   padding-bottom: 50px;
 
-  div.col-md-9 {
+  div.col-md-9.col-xs-12 {
     h1 {
       font-family: 'robotoblack', sans-serif;
       color: rgb(0, 0, 192);
@@ -124,11 +124,11 @@ body {
 
   }
 
-  div.col-md-4 {
+  div.col-xs-4 {
     padding-top: 62px;
   }
 
-  div.col-md-8 {
+  div.col-xs-8 {
     border-left-style: solid;
     border-width: 1px;
     border-color: white;
@@ -151,7 +151,7 @@ body {
 } /*#cv*/
 
 /*this code would not work nested, aargh Bootstrap! Sets specific /p/ elements to an italic font-family within CV*/
-div#cv.container-fluid div.row div.col-md-9.col-md-offset-1 div.row div.col-md-8 p#italic {font-family: 'robotothin_italic', sans-serif;}
+div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row div.col-xs-8 p#italic {font-family: 'robotothin_italic', sans-serif;}
 
 .modal {
   color: #D3D6EF;
