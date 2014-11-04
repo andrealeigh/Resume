@@ -89,6 +89,10 @@ body {
 
     #about, #core-skills {
       font-size: ceil(($font-size-base * 1.26));
+      li:nth-of-type(6) {
+        color: rgb(0, 0, 192);
+        font-family: 'robotoregular', sans-serif;
+      }
     }
 
     #employment-blurb {
