@@ -145,11 +145,13 @@ body {
     }
     p {
       line-height: 1em;
-      #acronym {font-family: 'robotothin_italic', sans-serif;}
       }
   }
 
 } /*#cv*/
+
+/*this code would not work nested, aargh Bootstrap! Sets specific /p/ elements to an italic font-family within CV*/
+div#cv.container-fluid div.row div.col-md-9.col-md-offset-1 div.row div.col-md-8 p#italic {font-family: 'robotothin_italic', sans-serif;}
 
 .modal {
   color: #D3D6EF;
