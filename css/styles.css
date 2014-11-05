@@ -8219,24 +8219,24 @@ div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row di
 }
 
 /* line 177, ../sass/styles.scss */
-div#contact.container-fluid div.row {
+#contact {
   background-color: black;
 }
-/* line 180, ../sass/styles.scss */
-div#contact.container-fluid div.row div.col-sm-10.col-sm-offset-1 div.col-sm-2.col-sm-offset-1 a img.one {
+/* line 179, ../sass/styles.scss */
+#contact .white {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 10;
 }
-/* line 187, ../sass/styles.scss */
-div#contact.container-fluid div.row div.col-sm-10.col-sm-offset-1 div.col-sm-2.col-sm-offset-1 a img.two {
+/* line 185, ../sass/styles.scss */
+#contact .color {
   position: absolute;
   left: 0;
   top: 0;
 }
-/* line 195, ../sass/styles.scss */
-div#contact.container-fluid div.row .col-md-8 {
+/* line 190, ../sass/styles.scss */
+#contact .col-md-8 {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;
   padding-top: 50px;
