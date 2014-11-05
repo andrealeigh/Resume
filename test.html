@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <style>
+
+      /*.gallery li {
+        float: left;
+        margin-right: 20px;
+        list-style-type: none;
+        margin-bottom: 20px;
+        display: block;
+        height: 130px;
+        width: 130px;
+        position: relative;
+      }*/
+
+      img.one {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10;
+      }
+
+      img.two {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+
+    <ul class="gallery">
+        <ul class="gallery">
+            <li><a href="https://twitter.com/AndreaLeigh111" target="_blank"><img class="one" src="images/icon-twitter.png" alt=""/> <img class="two" src="images/icon-twitter-hover.png" alt="" /></a></li>
+        </ul>
+      </ul>
+
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+  <script>
+
+    $(document).ready(function(){
+    $("img.one").hover(
+    function() {
+    $(this).stop().animate({"opacity": "0"}, "slow");
+    },
+    function() {
+    $(this).stop().animate({"opacity": "1"}, "slow");
+    });
+    });
+
+  </script>
+
+
+  </body>
+
+
+</html>
