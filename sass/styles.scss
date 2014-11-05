@@ -1,69 +1,201 @@
-$body-bg: #DCE6E8; /*variable for body background color*/
 
-body { /*background color and padding for body*/
-    background-color: $body-bg;
-    padding-top: 30px;
-}
+$navbar-default-bg: rgba(255, 255, 255, 0.8); /*background color of the navbar*/
+$navbar-default-link-color: black; /*color of the navbar links*/
+$navbar-default-link-active-bg: white; /*color of active background when you scroll*/
+$navbar-default-link-active-color: black; /*color of active navbar links when you scroll*/
+// $navbar-default-link-active-border: blue;
 
-$navbar-default-bg: #767D94; /*background color of the navbar*/
-$navbar-default-link-color: #DDEAEC; /*color of the navbar links*/
-$navbar-default-link-active-bg: #E1E4EF; /*color of active background when you scroll*/
-$navbar-default-link-active-color: #767D94; /*color of active navbar links when you scroll*/
-
-$navbar-font-family: 'Alegreya Sans SC', sans-serif; /*variable for navbar font*/
+$navbar-font-family: 'robotoblack', sans-serif; /*variable for navbar font*/
 $navbar-font-size: 16px; /*variable for navbar font size*/
 
-.navbar-default
-  .navbar-nav>li>a, .navbar-text {
-    font-family: $navbar-font-family; /*font of navbar links*/
-    font-size: $navbar-font-size; /*font size of navbar links*/
-  }
+$headings-font-family: 'robotoregular', serif; /*changes font-family for heading*/
 
-$headings-font-family: 'Old Standard TT', serif; /*changes font-family for h1*/
+$line-height-base: 1.6; /*line height of all text*/
 
-$thumbnail-bg: #FFFFFF; /*variable for img-thumbnail background color*/
+$font-family-sans-serif: 'robotolight'; /*font-family of body*/
+$font-size-base: 20px; /*font-size of body*/
 
-.img-thumbnail {
-  background-color: $thumbnail-bg; /*changes background color for thumbnails and home div back to white--for some reason the body bg affected these bgs*/
-}
+$border-radius-base: 0; /*changes border-radius of panel-body, thumnails, buttons*/
 
-.col-md-4, .col-xs-6 { /*adds spacing between rows for portfolio thumbnails*/
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.col-md-10 {
-  padding-top: 50px; /*provides padding between the home container and the panel body*/
-}
-
-$btn-default-bg:     #7A9EA4; /*background color of buttons in table*/
-$btn-default-color:  #DCE6E8; /*text color of buttons in table*/
-
-$table-bg-hover:     #E1E4EF; /*background color when hovering over table columns*/
-
-$table-heading-font-family: 'Playfair Display SC', serif; /*variable for table heading font*/
-$table-heading-font-size: 16px; /*variable for navbar font size*/
-
-table
-  thead
-    tr
-      th {
-        font-family: $table-heading-font-family; /*font of table heading*/
-        font-size: $table-heading-font-size; /*font size of table heading*/
-      }
-  tbody
-    tr
-      td
-        a.btn.btn-default {
-          float: right; /*aligns the buttons within the table*/
-        }
-
-.skills-list {
-  margin-left: 10px; /*aligns core skills bullets to the bullets in the table*/
-}
-
-$navbar-default-color: #DDEAEC; /*text color for the navbar, but this is only applying to the footer bc the top navbar text are links*/
+$btn-default-bg: rgb(0, 0, 192); /*background color of buttons in table*/
+$btn-default-color: white; /*text color of buttons in table*/
+$btn-default-border: white;
 
 @import "bootstrap-compass";
 @import "bootstrap-variables";
 @import "bootstrap";
+
+@mixin transition {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar-default {
+  display: none;
+  .navbar-nav>li>a, .navbar-text {
+    font-family: $navbar-font-family; /*font of navbar links*/
+    font-size: $navbar-font-size; /*font size of navbar links*/
+  }
+  li.active, #contact:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+  }
+  .navbar-nav>li>a:hover, .navbar-default.navbar-nav>li>a:focus {
+    color: blue;
+    @include transition;
+  }
+}
+
+body {
+    background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
+}
+
+.col-md-10 {
+  padding-top: 50px; /*padding for portfolio div--not sure why this is not working when I nest it in #portfolio*/
+  padding-bottom: 50px;
+}
+
+#portfolio {
+  div.col-sm-4.col-xs-12 {
+    margin-top: 15px; /*adds spacing between rows for portfolio thumbnails*/
+    margin-bottom: 15px; /*adds spacing between rows for portfolio thumbnails*/
+    img:hover {
+      outline: 10px solid blue;
+      @include transition;
+    }
+  }
+}
+
+#cv {
+  background-color: rgba(3, 165, 133, 0.6);
+  color: white;
+  padding-bottom: 50px;
+
+  div.col-md-9.col-xs-12 {
+    h1 {
+      font-family: 'robotoblack', sans-serif;
+      color: rgb(0, 0, 192);
+      margin-top: 50px;
+    }
+
+    #about, #core-skills {
+      font-size: ceil(($font-size-base * 1.26));
+      li:nth-of-type(6) {
+        color: rgb(0, 0, 192);
+        font-family: 'robotoregular', sans-serif;
+      }
+    }
+
+    #employment-blurb {
+      a {
+        color: white;
+        font-family: 'robotoregular', sans-serif;
+        &:hover {
+          color: rgb(0, 0, 192);
+          @include transition;
+        }
+      }
+    }
+
+    a button.btn.btn-default {
+      font-family: 'robotoregular', sans-serif;
+      width: 100px;
+      height: 100px;
+      margin-top: 25px;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      border-width: 2px;
+      &:hover {
+        color: #0000C0;
+        border-color: #0000C0;
+        background-color: white;
+        @include transition;
+      }
+    }
+
+  }
+
+  div.col-xs-4 {
+    padding-top: 62px;
+  }
+
+  div.col-xs-8 {
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding-top: 25px;
+    &:last-of-type, &:nth-of-type(3) {
+      padding-bottom: 50px;
+    }
+    h3 {
+      color: rgb(0, 0, 192);
+      small {
+        color: white;
+        font-family: 'robotothin_italic', sans-serif;
+      }
+    }
+    p {
+      line-height: 1em;
+      }
+  }
+
+} /*#cv*/
+
+/*this code would not work nested, aargh Bootstrap! Sets specific /p/ elements to an italic font-family within CV*/
+div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row div.col-xs-8 p#italic {font-family: 'robotothin_italic', sans-serif;}
+
+.modal {
+  color: #D3D6EF;
+  font-family: 'robotolight', sans-serif;
+  .modal-header {
+    background-color: #0000C0;
+  }
+  .modal-body {
+    background-color: #0000C0;
+    li {
+      padding-top: 15px;
+      font-size: ceil(($font-size-base * 0.85));
+      }
+  }
+  .modal-footer {
+    background-color:#0000C0;
+    a.btn.btn-default {
+      font-family: 'robotoregular', sans-serif;
+      &:hover {
+        color: #0000C0;
+        border-color: #0000C0;
+        background-color: white;
+        @include transition;
+      }
+    }
+  }
+}
+
+
+div#contact.container-fluid div.row {
+  background-color: black;
+  // div.col-sm-10.col-sm-offset-1 div.col-sm-2.col.sm-offset-1 {
+  //   a img.one {
+  //     position: absolute;
+  //     left: 0;
+  //     top: 0;
+  //     z-index: 10;
+  //   }
+  //
+  //   a img.two {
+  //     position: absolute;
+  //     left: 0;
+  //     top: 0;
+  //   }
+  // }
+
+
+  .col-md-8 {
+    color: rgb(108, 111, 118);
+    font-family: 'robotoblack', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+}
