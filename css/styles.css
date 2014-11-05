@@ -8236,9 +8236,9 @@ div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row di
   top: 0;
 }
 /* line 190, ../sass/styles.scss */
-#contact .col-md-8 {
+#contact p.text-center {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;
-  padding-top: 50px;
+  padding-top: 130px;
   padding-bottom: 15px;
 }
