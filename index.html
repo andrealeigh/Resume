@@ -224,6 +224,8 @@
         </div>
         <div class="col-sm-2">
           <a href="https://twitter.com/AndreaLeigh111" target="_blank"><img src="images/icon-twitter.png" onmouseover="this.src='images/icon-twitter-hover.png'" onmouseout="this.src='images/icon-twitter.png'" class="img-responsive center-block" alt="twitter"/></a>
+          <!-- <a href="https://twitter.com/AndreaLeigh111" target="_blank"><img class="one" src="images/icon-twitter.png" alt=""/> <img class="two" src="images/icon-twitter-hover.png" alt="" /></a> -->
+
         </div>
 
       </div>
@@ -272,6 +274,20 @@
       <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
       <script src="js/bootstrap.js"></script>
       <script src="resume.js"></script>
+
+      <script>
+
+        $(document).ready(function(){
+        $("img.one").hover(
+        function() {
+        $(this).stop().animate({"opacity": "0"}, "slow");
+        },
+        function() {
+        $(this).stop().animate({"opacity": "1"}, "slow");
+        });
+        });
+
+      </script>
 
   </body>
 
