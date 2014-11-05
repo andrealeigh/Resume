@@ -8223,14 +8223,14 @@ div#contact.container-fluid div.row {
   background-color: black;
 }
 /* line 180, ../sass/styles.scss */
-div#contact.container-fluid div.row div.col-sm-10.col-sm-offset-1 div.col-sm-2.col.sm-offset-1 a img.one {
+div#contact.container-fluid div.row div.col-sm-10.col-sm-offset-1 div.col-sm-2.col-sm-offset-1 a img.one {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 10;
 }
 /* line 187, ../sass/styles.scss */
-div#contact.container-fluid div.row div.col-sm-10.col-sm-offset-1 div.col-sm-2.col.sm-offset-1 a img.two {
+div#contact.container-fluid div.row div.col-sm-10.col-sm-offset-1 div.col-sm-2.col-sm-offset-1 a img.two {
   position: absolute;
   left: 0;
   top: 0;
