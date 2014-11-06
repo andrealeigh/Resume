@@ -8128,7 +8128,11 @@ body {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 101, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
+#cv div.col-md-9.col-xs-12 a:hover {
+  text-decoration: none;
+}
+/* line 103, ../sass/styles.scss */
 #cv div.col-md-9.col-xs-12 a button.btn.btn-default {
   font-family: 'robotoregular', sans-serif;
   width: 100px;
@@ -8139,7 +8143,7 @@ body {
   border-radius: 50px;
   border-width: 2px;
 }
-/* line 110, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 #cv div.col-md-9.col-xs-12 a button.btn.btn-default:hover {
   color: #0000C0;
   border-color: #0000C0;
@@ -8147,69 +8151,69 @@ body {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 120, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 #cv div.col-xs-4 {
   padding-top: 62px;
 }
-/* line 124, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 #cv div.col-xs-8 {
   border-left-style: solid;
   border-width: 1px;
   border-color: white;
   padding-top: 25px;
 }
-/* line 129, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 #cv div.col-xs-8:last-of-type, #cv div.col-xs-8:nth-of-type(3) {
   padding-bottom: 50px;
 }
-/* line 132, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 #cv div.col-xs-8 h3 {
   color: #0000c0;
 }
-/* line 134, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 #cv div.col-xs-8 h3 small {
   color: white;
   font-family: 'robotothin_italic', sans-serif;
 }
-/* line 139, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 #cv div.col-xs-8 p {
   line-height: 1em;
 }
 
 /*#cv*/
 /*this code would not work nested, aargh Bootstrap! Sets specific /p/ elements to an italic font-family within CV*/
-/* line 147, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row div.col-xs-8 p#italic {
   font-family: 'robotothin_italic', sans-serif;
 }
 
-/* line 149, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 .modal {
   color: #D3D6EF;
   font-family: 'robotolight', sans-serif;
 }
-/* line 152, ../sass/styles.scss */
+/* line 154, ../sass/styles.scss */
 .modal .modal-header {
   background-color: #0000C0;
 }
-/* line 155, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 .modal .modal-body {
   background-color: #0000C0;
 }
-/* line 157, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 .modal .modal-body li {
   padding-top: 15px;
   font-size: 17px;
 }
-/* line 162, ../sass/styles.scss */
+/* line 164, ../sass/styles.scss */
 .modal .modal-footer {
   background-color: #0000C0;
 }
-/* line 164, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default {
   font-family: 'robotoregular', sans-serif;
 }
-/* line 166, ../sass/styles.scss */
+/* line 168, ../sass/styles.scss */
 .modal .modal-footer a.btn.btn-default:hover {
   color: #0000C0;
   border-color: #0000C0;
@@ -8218,24 +8222,24 @@ div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row di
   transition: all 0.5s ease;
 }
 
-/* line 177, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 #contact {
   background-color: black;
 }
-/* line 179, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 #contact .white {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 10;
 }
-/* line 185, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 #contact .color {
   position: absolute;
   left: 0;
   top: 0;
 }
-/* line 190, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 #contact p.text-center {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;

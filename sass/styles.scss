@@ -97,7 +97,9 @@ body {
         }
       }
     }
-
+    a:hover {
+      text-decoration: none;
+    }
     a button.btn.btn-default {
       font-family: 'robotoregular', sans-serif;
       width: 100px;
