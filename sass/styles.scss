@@ -3,10 +3,9 @@ $navbar-default-bg: rgba(255, 255, 255, 0.8); /*background color of the navbar*/
 $navbar-default-link-color: black; /*color of the navbar links*/
 $navbar-default-link-active-bg: white; /*color of active background when you scroll*/
 $navbar-default-link-active-color: black; /*color of active navbar links when you scroll*/
-// $navbar-default-link-active-border: blue;
 
 $navbar-font-family: 'robotoblack', sans-serif; /*variable for navbar font*/
-$navbar-font-size: 16px; /*variable for navbar font size*/
+$navbar-font-size: 25px; /*variable for navbar font size*/
 
 $headings-font-family: 'robotoregular', serif; /*changes font-family for heading*/
 
@@ -80,22 +79,19 @@ body {
         margin-top: 50px;
       }
 
-      #about, #core-skills {
-        font-size: ceil(($font-size-base * 1.26));
+      #about, #core-skills, #employment-blurb {
+        font-size: ceil(($font-size-base * 1.25));
         li:nth-of-type(6) {
           color: rgb(0, 0, 192);
           font-family: 'robotoregular', sans-serif;
         }
-      }
-
-      #employment-blurb {
         a {
-          color: white;
-          font-family: 'robotoregular', sans-serif;
-          &:hover {
-            color: rgb(0, 0, 192);
-            @include transition;
-          }
+            color: white;
+            font-family: 'robotoregular', sans-serif;
+            &:hover {
+              color: rgb(0, 0, 192);
+              @include transition;
+            }
         }
       }
       a:hover {

@@ -8046,62 +8046,62 @@ button.close {
     display: none !important;
   }
 }
-/* line 33, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 .navbar-default {
   display: none;
 }
-/* line 35, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
   font-family: "robotoblack", sans-serif;
   /*font of navbar links*/
-  font-size: 16px;
+  font-size: 25px;
   /*font size of navbar links*/
 }
-/* line 39, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 .navbar-default li.active, .navbar-default #contact:hover {
   border-style: solid;
   border-width: 1px;
   border-color: blue;
 }
-/* line 44, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-default.navbar-nav > li > a:focus {
   color: blue;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-/* line 50, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 body {
   background: url("../graph_paper_BACKGROUND2.svg") repeat center center fixed;
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 .col-md-10 {
   padding-top: 50px;
   /*padding for portfolio div--not sure why this is not working when I nest it in #portfolio*/
   padding-bottom: 50px;
 }
 
-/* line 60, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 #portfolio-content div.col-sm-4.col-xs-12 {
   margin-top: 15px;
   /*adds spacing between rows for portfolio thumbnails*/
   margin-bottom: 15px;
   /*adds spacing between rows for portfolio thumbnails*/
 }
-/* line 63, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 #portfolio-content div.col-sm-4.col-xs-12 img:hover {
   outline: 10px solid blue;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-/* line 70, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
   /*#cv-content*/
 }
-/* line 72, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 #cv #cv-content {
   color: white;
   padding-bottom: 50px;
