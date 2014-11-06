@@ -8219,13 +8219,26 @@ div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row di
 }
 
 /* line 177, ../sass/styles.scss */
-div#contact.container-fluid div.row {
+#contact {
   background-color: black;
 }
-/* line 195, ../sass/styles.scss */
-div#contact.container-fluid div.row .col-md-8 {
+/* line 179, ../sass/styles.scss */
+#contact .white {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+/* line 185, ../sass/styles.scss */
+#contact .color {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 190, ../sass/styles.scss */
+#contact p.text-center {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;
-  padding-top: 50px;
+  padding-top: 130px;
   padding-bottom: 15px;
 }
