@@ -56,7 +56,7 @@ body {
   padding-bottom: 50px;
 }
 
-#portfolio {
+#portfolio-content {
   div.col-sm-4.col-xs-12 {
     margin-top: 15px; /*adds spacing between rows for portfolio thumbnails*/
     margin-bottom: 15px; /*adds spacing between rows for portfolio thumbnails*/
@@ -69,84 +69,91 @@ body {
 
 #cv {
   background-color: rgba(3, 165, 133, 0.6);
-  color: white;
-  padding-bottom: 50px;
+  #cv-content {
+    color: white;
+    padding-bottom: 50px;
 
-  div.col-md-9.col-xs-12 {
-    h1 {
-      font-family: 'robotoblack', sans-serif;
-      color: rgb(0, 0, 192);
-      margin-top: 50px;
-    }
-
-    #about, #core-skills {
-      font-size: ceil(($font-size-base * 1.26));
-      li:nth-of-type(6) {
+    div.col-md-9.col-xs-12 {
+      h1 {
+        font-family: 'robotoblack', sans-serif;
         color: rgb(0, 0, 192);
-        font-family: 'robotoregular', sans-serif;
+        margin-top: 50px;
       }
-    }
 
-    #employment-blurb {
-      a {
-        color: white;
-        font-family: 'robotoregular', sans-serif;
-        &:hover {
+      #about, #core-skills {
+        font-size: ceil(($font-size-base * 1.26));
+        li:nth-of-type(6) {
           color: rgb(0, 0, 192);
+          font-family: 'robotoregular', sans-serif;
+        }
+      }
+
+      #employment-blurb {
+        a {
+          color: white;
+          font-family: 'robotoregular', sans-serif;
+          &:hover {
+            color: rgb(0, 0, 192);
+            @include transition;
+          }
+        }
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      a button.btn.btn-default {
+        font-family: 'robotoregular', sans-serif;
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        border-width: 2px;
+        &:hover {
+          color: #0000C0;
+          border-color: #0000C0;
+          background-color: white;
           @include transition;
         }
       }
+
     }
-    a:hover {
-      text-decoration: none;
+
+    div.col-xs-4 {
+      padding-top: 62px;
     }
-    a button.btn.btn-default {
-      font-family: 'robotoregular', sans-serif;
-      width: 100px;
-      height: 100px;
-      margin-top: 25px;
-      -moz-border-radius: 50px;
-      -webkit-border-radius: 50px;
-      border-radius: 50px;
-      border-width: 2px;
-      &:hover {
-        color: #0000C0;
-        border-color: #0000C0;
-        background-color: white;
-        @include transition;
+
+    div.col-xs-8 {
+      border-left-style: solid;
+      border-width: 1px;
+      border-color: white;
+      padding-top: 25px;
+      &:last-of-type, &:nth-of-type(3) {
+        padding-bottom: 50px;
       }
-    }
-
-  }
-
-  div.col-xs-4 {
-    padding-top: 62px;
-  }
-
-  div.col-xs-8 {
-    border-left-style: solid;
-    border-width: 1px;
-    border-color: white;
-    padding-top: 25px;
-    &:last-of-type, &:nth-of-type(3) {
-      padding-bottom: 50px;
-    }
-    h3 {
-      color: rgb(0, 0, 192);
-      small {
-        color: white;
-        font-family: 'robotothin_italic', sans-serif;
+      h3 {
+        color: rgb(0, 0, 192);
+        small {
+          color: white;
+          font-family: 'robotothin_italic', sans-serif;
+        }
       }
+      p {
+        line-height: 1em;
+        }
     }
-    p {
-      line-height: 1em;
-      }
-  }
 
+  } /*#cv-content*/
 } /*#cv*/
 
 /*this code would not work nested, aargh Bootstrap! Sets specific /p/ elements to an italic font-family within CV*/
 div#cv.container-fluid div.row div.col-md-9.col-md-offset-1.col-xs-12 div.row div.col-xs-8 p#italic {font-family: 'robotothin_italic', sans-serif;}
+
+#test {
+  background-color: red;
+}
+
 
 .modal {
   color: #D3D6EF;
