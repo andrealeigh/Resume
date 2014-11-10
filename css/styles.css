@@ -8083,14 +8083,14 @@ body {
 }
 
 /* line 59, ../sass/styles.scss */
-#portfolio-content div.col-sm-4.col-xs-12 {
+.portfolio-content div.col-sm-4.col-xs-12 {
   margin-top: 15px;
   /*adds spacing between rows for portfolio thumbnails*/
   margin-bottom: 15px;
   /*adds spacing between rows for portfolio thumbnails*/
 }
 /* line 62, ../sass/styles.scss */
-#portfolio-content div.col-sm-4.col-xs-12 img:hover {
+.portfolio-content div.col-sm-4.col-xs-12 img:hover {
   outline: 10px solid blue;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
