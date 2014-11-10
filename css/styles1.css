@@ -1,0 +1,56 @@
+/* line 6, ../sass/styles1.scss */
+.navbar-default {
+  display: block;
+}
+
+/* line 10, ../sass/styles1.scss */
+.body {
+  background-color: rgba(3, 165, 133, 0.6);
+  color: white;
+  font-size: 25px;
+}
+/* line 14, ../sass/styles1.scss */
+.body h2 {
+  font-family: 'robotoblack', sans-serif;
+  color: #0000c0;
+  padding-top: 25px;
+}
+/* line 19, ../sass/styles1.scss */
+.body p {
+  line-height: 25px;
+}
+/* line 21, ../sass/styles1.scss */
+.body p:first-of-type {
+  font-family: 'robotothin_italic', sans-serif;
+}
+/* line 24, ../sass/styles1.scss */
+.body p:last-of-type {
+  padding-bottom: 25px;
+}
+/* line 28, ../sass/styles1.scss */
+.body a {
+  color: #0000c0;
+  font-family: 'robotoregular', sans-serif;
+}
+/* line 31, ../sass/styles1.scss */
+.body a:hover {
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 36, ../sass/styles1.scss */
+.body a:hover {
+  text-decoration: none;
+}
+
+/* line 41, ../sass/styles1.scss */
+.footer {
+  background-color: black;
+}
+/* line 43, ../sass/styles1.scss */
+.footer p.text-center {
+  color: #6c6f76;
+  font-family: 'robotoblack', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}

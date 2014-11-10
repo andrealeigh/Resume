@@ -1,0 +1,49 @@
+@mixin transition {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar-default {
+  display: block;
+}
+
+.body {
+  background-color: rgba(3, 165, 133, 0.6);
+  color: white;
+  font-size: ceil((20px * 1.25));
+  h2 {
+    font-family: 'robotoblack', sans-serif;
+    color: rgb(0, 0, 192);
+    padding-top: 25px;
+  }
+  p {
+    line-height: 25px;
+    &:first-of-type {
+      font-family: 'robotothin_italic', sans-serif;
+    }
+    &:last-of-type {
+      padding-bottom: 25px;
+    }
+  }
+  a {
+      color: rgb(0, 0, 192);
+      font-family: 'robotoregular', sans-serif;
+      &:hover {
+        color: white;
+        @include transition;
+      }
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.footer {
+  background-color: black;
+  p.text-center {
+    color: rgb(108, 111, 118);
+    font-family: 'robotoblack', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+}
