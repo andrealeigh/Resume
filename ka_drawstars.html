@@ -48,10 +48,14 @@
           <div class="col-md-10 col-md-offset-1">
             <h2 class="text-center">DRAW A STARRY NIGHT</h2>
             <hr>
-            <p>Created via ProcessingJS</p>
-            <p>Inspired by Khan Academy's&nbsp;<a href="https://www.khanacademy.org/computing/cs/programming/arrays/p/challenge-constellation-maker" target="_blank">"Constellation Maker" course project</a></p>
-            <p><span class="directions">DIRECTIONS:</span> Click on the blank canvas to place stars in the sky</p>
-            <canvas class="center-block" id="mycanvas" width="400" height="400"></canvas>
+            <div class="row">
+              <div class="col-md-9 col-md-offset-1">
+                <p>Created via ProcessingJS</p>
+                <p>Inspired by Khan Academy's&nbsp;<a href="https://www.khanacademy.org/computing/cs/programming/arrays/p/challenge-constellation-maker" target="_blank">"Constellation Maker" course project</a></p>
+                <p><span class="directions">DIRECTIONS:</span> Click on the blank canvas to place stars in the sky</p>
+              </div>
+            </div>  
+            <canvas class="center-block" id="mycanvas" width="800" height="500"></canvas>
           </div><!--.col-md-10-->
         </div><!--.row-->
       </div> <!--.container-->
@@ -77,7 +81,7 @@
   <script>
     var project1 = function(processing) {
       with(processing) {
-        size(400,400);
+        size(800,500);
         var xPositions = [100, 150];
         var yPositions = [200, 150];
         var starImage = loadImage("star.jpg");
