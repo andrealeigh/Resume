@@ -3,6 +3,11 @@
   transition: all 0.5s ease;
 }
 
+@mixin transition {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 .navbar-default {
   display: block;
 }
@@ -41,7 +46,34 @@
     font-family: 'robotoregular', sans-serif;
     color: rgb(0, 0, 192);
   }
+  .cat-graveyard {
+    font-size: ceil((16px * 1.25));
+    h4{
+      color: rgb(0, 0, 192);
+      padding-top: 25px;
+    }
+    .intro {
+      padding-top: 7px;
+    }
+    .graveyard-img:hover {
+      outline: 10px solid blue;
+      @include transition;
+    }
+    p {
+      font-family: 'robotolight';
+      line-height: 30px;
+      .italic {
+        font-family: 'robotothin_italic', sans-serif;
+      }
+    }
+    .img-feynman {
+      margin: 10px;
+      border: 5px solid white;
+    }
+  }
+
 }
+
 
 .footer {
   background-color: black;
