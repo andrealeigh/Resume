@@ -30,63 +30,75 @@
 }
 /* line 34, ../sass/styles1.scss */
 .body a {
-  color: #0000c0;
-  font-family: 'robotoregular', sans-serif;
-}
-/* line 37, ../sass/styles1.scss */
-.body a:hover {
   color: white;
+  font-family: 'robotoregular', sans-serif;
+  text-decoration: underline;
+}
+/* line 38, ../sass/styles1.scss */
+.body a:hover {
+  color: #0000c0;
+  text-decoration: none;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 42, ../sass/styles1.scss */
-.body a:hover {
-  text-decoration: none;
-}
-/* line 45, ../sass/styles1.scss */
+/* line 44, ../sass/styles1.scss */
 .body .directions {
   font-family: 'robotoregular', sans-serif;
   color: #0000c0;
 }
-/* line 49, ../sass/styles1.scss */
-.body .cat-graveyard {
+/* line 48, ../sass/styles1.scss */
+.body .website-projects {
   font-size: 20px;
 }
-/* line 51, ../sass/styles1.scss */
-.body .cat-graveyard h4 {
+/* line 50, ../sass/styles1.scss */
+.body .website-projects h4 {
   color: #0000c0;
   padding-top: 25px;
 }
-/* line 55, ../sass/styles1.scss */
-.body .cat-graveyard .intro {
+/* line 54, ../sass/styles1.scss */
+.body .website-projects .intro {
   padding-top: 7px;
 }
-/* line 58, ../sass/styles1.scss */
-.body .cat-graveyard .graveyard-img:hover {
+/* line 57, ../sass/styles1.scss */
+.body .website-projects .projects-img:hover {
   outline: 10px solid blue;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 62, ../sass/styles1.scss */
-.body .cat-graveyard p {
+/* line 61, ../sass/styles1.scss */
+.body .website-projects p {
   font-family: 'robotolight';
   line-height: 30px;
 }
 /* line 65, ../sass/styles1.scss */
-.body .cat-graveyard p .italic {
+.body .website-projects .italic {
   font-family: 'robotothin_italic', sans-serif;
 }
-/* line 69, ../sass/styles1.scss */
-.body .cat-graveyard .img-feynman {
+/* line 68, ../sass/styles1.scss */
+.body .website-projects li {
+  margin-bottom: 16px;
+}
+/* line 70, ../sass/styles1.scss */
+.body .website-projects li .blue {
+  color: #0000c0;
+  font-family: 'robotoregular', sans-serif;
+}
+/* line 75, ../sass/styles1.scss */
+.body .website-projects .img-inspiration {
   margin: 10px;
   border: 5px solid white;
 }
+/* line 79, ../sass/styles1.scss */
+.body .website-projects .img-description {
+  margin: 10px 0 10px 0;
+  border: 5px solid white;
+}
 
-/* line 78, ../sass/styles1.scss */
+/* line 88, ../sass/styles1.scss */
 .footer {
   background-color: black;
 }
-/* line 80, ../sass/styles1.scss */
+/* line 90, ../sass/styles1.scss */
 .footer p.text-center {
   color: #6c6f76;
   font-family: 'robotoblack', sans-serif;
