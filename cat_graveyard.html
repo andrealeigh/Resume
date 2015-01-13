@@ -45,7 +45,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-10 col-md-offset-1 cat-graveyard">
+          <div class="col-md-10 col-md-offset-1 website-projects">
             <h2 class="text-center">GRAVEYARD OF CAT-ASTROPHES</h2>
             <hr>
             <div class="row">
@@ -53,28 +53,28 @@
                 <h4 class="intro">INTRODUCTION</h4>
                 <p>
                   This is a personal website dedicated to things my cats have destroyed, or to put it more dramatically:
-                  To mourn the CATastrophes commited by two little monsters, Felix and Feynman the Cats.
+                  To mourn the CATastrophes committed by two little monsters, Felix and Feynman the Cats.
                   Completed September 2014.
                 </p>
               </div>
             </div>
 
-            <a href="http://andrealeigh.github.io/Cat_graveyard/" target="_blank"><img src="Cat_graveyard_final.png" class="graveyard-img img-responsive img-thumbnail center-block" alt="CatGraveyard"/></a>
+            <a href="http://andrealeigh.github.io/Cat_graveyard/" target="_blank"><img src="Cat_graveyard_final.png" class="projects-img img-responsive img-thumbnail center-block" alt="CatGraveyard"/></a>
 
             <div class="row">
               <div class="col-md-9 col-md-offset-1">
                 <h4>INSPIRATION</h4>
                 <p>
-                  <img src="images/feynman.jpg" class="img-feynman img-responsive pull-right" alt="Feynman"/>
+                  <img src="images/feynman.jpg" class="img-inspiration img-responsive pull-right" alt="Feynman"/>
                   Once upon a time, I looked around my apartment and realized, wow.
                   My cats are special. (They say they're "artistic.")
-                  So I started taking pictures of some, er, fantastically disfigured household items, I mean artwork. I sent the photos to family and friends who unaminously responded with:
+                  So I started taking pictures of some, er, fantastically disfigured household items, I mean artwork. I sent the photos to family and friends who unanimously responded with:
                 </p>
                 <p>
                   LOL OMG WHAT IS WRONG WITH YOUR CATS AT LEAST TODDLERS TURN INTO ADULTS EVENTUALLY... AHHHH
                 </p>
                 <p>
-                  At some point I started iterating on the idea of a creepy hilarious graveyard filled with destroyed inaminate objects.
+                  At some point I started iterating on the idea of a creepy hilarious graveyard filled with destroyed inanimate objects.
                   Because when you can't have anything nice, it's better to make a website about it than to cry yourself to sleep.
                 </p>
                 <h4>ARTWORK AND CONTENT</h4>
@@ -85,32 +85,96 @@
                   started giving me the side-eye while gently asking, "Is everything OK? Should I be worried?"
                 </p>
                 <p>
-                  I also had a blast creating the obituary-like poems for each object.
+                  I also had a blast creating obituary-like poems for each object.
                   I have a background in linguistics and journalism, and creative writing is something that has always been near and dear to my heart.
                   This project became a unique creative outlet and reminded me that I still love to write.
+                </p>
+                <h4>UX/UI</h4>
+                <p>
+                  During the design stage, I decided that I wanted my website to have a Tim Burton-esque feel.
+                  His <a href="http://timburton.com/">website</a> is super cool, but it would probably make Steve Krug cry (author of my UX bible, <span class="italic">Don't Make Me Think, Revisited</span>).
+                  You have no idea what is in store for the first 10 seconds of visiting the site. Literally: The first 10 seconds features a progression of strange beings huddled around the numbers 1 through 10.
+                  After that, you're informed that this is a website about the art of Tim Burton, but to access his artwork portfolio you have to navigate this "Stain boy" character with the arrows on your keyboard while odd music plays.
+                  This is charming and works because it's a website about Tim Burton, the master of strange.
+                </p>
+                <p>
+                  I knew that I wouldn't be able to get away with half as much, but I still wanted to incorporate some element of mystery and discovery.
+                  This meant breaking some rules (but hopefully not Mr. Krug's heart):
+                  <ul>
+                    <li>
+                      <span class="blue">No navbar:</span>
+                      There is nothing to guide or tip off my user about the contents on the site via a navbar.
+                      I killed the navbar because I wanted the user to discover the content by scrolling and clicking, as opposed to having something that mimicked the navbar on my resume website:
+                      <img src="images/navbar.jpg" class="img-description img-responsive" alt="Navbar"/>
+                      Sure, a navbar would give the user a nice bird's-eye view of website's contents, but it also seemed to go against the overall mood of mystery I was trying to accomplish.
+                      I did, however, add an "about" button at the top to give the user some context of the purpose of website.
+                    </li>
+                    <li>
+                        <span class="blue">The obituary poems must be "discovered:"</span>
+                        The poems are hidden in modals that are activated when the user clicks on a gravestone,
+                        which is outlined in red if the user hovers over it.
+                        It's true that the user might hesitate or have to think about these call-to-action buttons; I realize that gravestones aren't the most conventional choice for a button.
+                        So, I tried to reduce the cognitive load by having one gravestone per row, alternating them between the left and right of the screen,
+                        and having the row take up more or less of the height of the user's browser screen.
+                        Additionally, there is nothing else in this section except for a dark blue and black background, meaning that there's nothing to distract the user from the creepy gravestones.
+                        I also tipped off the user that there was more than just gravestones from the blurb right before them:
+                        <img src="images/gravestone_blurb.png" class="img-description img-responsive" alt="Gravestone_blurb"/>
+                        The user will know that there will be hilarious photos featured somewhere, and this will hopefully add to the <a href="http://en.wikipedia.org/wiki/Information_foraging">information scent</a> once the user gets to the gravestone section.
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  Because the purpose of the website was to showcase artistic content vs. informational content,
+                  I felt like had more freedom to take risks in user experience.
                 </p>
                 <h4>DEVELOPMENT</h4>
                 <p>
                   I developed the website using Bootstrap and SCSS. This was the first time making my CSS code "Sassy," and by the end I was sold on its benefits and power.
-                  This was also the first project that I deliberately tried to make look less like a typical Bootstrap website.
+                  Here are some things I learned on this project:
+                  <ul>
+                    <li>
+                      <span class="blue">SCSS nesting:</span>
+                      Being able to nest my CSS made it so much easier to organize and clean up my code.
+                      It is also much easier to tell which rule applies to which part of the HTML.
+                      <img src="images/nesting.png" class="img-description img-responsive" alt="Nesting"/>
+                      I still have some work to do re: writing beautiful and concise code, but I'm getting there!
+                    </li>
+                    <li>
+                      <span class="blue">Bootstrap-Sass variables:</span>
+                      I took advantage of ready-made <a href="https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss">variables</a> to customize my Bootstrap website:
+                      <img src="images/bootstrap_variables.png" class="img-description img-responsive" alt="Bootstrap_variables"/>
+                      It was super easy to make changes to some of the styling this way, which is not always the case with Bootstrap.
+                    </li>
+                    <li>
+                      <span class="blue">Gradient mixins:</span>
+                      I wanted to use a dark blue and black gradient in the section with the gravestones to add dimension to the background color.
+                      To accomplish this, I made use of an <a href="https://github.com/twbs/bootstrap-sass/blob/d5625c907168b6311be122b99d89614e02448475/assets/stylesheets/bootstrap/mixins/_gradients.scss">SCSS gradient mixin</a> and then alternated the direction of the gradient between rows so that the overall coloring would be cohesive:
+                      <img src="images/bootstrap_gradient.png" class="img-description img-responsive" alt="Bootstrap_gradient"/>
+
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  Additionally, this was also the first project that I deliberately tried to make look less like a typical Bootstrap website.
                   This was a motivating challenge and ultimately helped me improve my coding skills.
                   The end result is that I was able to produce something closer to my visual goals, but the downside was that I lost some of the responsive features of Bootstrap. So, my website looks pretty good on my 13-inch laptop,
                   but not so great on a mobile device or a big fancy iMac with Retina 5K display.
-
                 </p>
+
                 <h4>ROOM FOR IMPROVEMENT</h4>
                 <p>
-                  As more time passes, the more critical I become of the end product. I'm not sold on the font I used for certain words in the blurb after the top image.
-                  And speaking of that top image, why didn't I save it as SVG? At larger screens the image stops expanding. Sad.
-                  My call to actions need to be more obvious, and they need to communicate: <span class="italic">Hey user! Scroll down. Click on those gravestones.</span>
+                  As more time passes, the more critical I become of the end product. I'm not sold on the font I used for certain words in the blurb before the gravestones.
+                  And why didn't I save the top image as an SVG? At larger screens the image stops expanding. Sad.
+                  Also, some of the images take a long time to load onto the website.
+                  I definitely need to incorporate some SPRITES, especially for the gravestone images (I used an inline javascript mouseover technique in the HTML to show an identical gravestone outlined in red when the user hovers over it).
                 </p>
                 <p>
                   And while I initially loved the incredibly large spacing between the gravestones, I now go back and forth on whether it really works.
-                  Every time I look at my website, my internal muttering sounds something like this: <span class="italic"> Hey girl, that spacing definitely looks strange and unecessary on larger-then-13-inch screens.
+                  Every time I look at my website, my internal muttering sounds something like this: <span class="italic"> Hey girl, that spacing definitely looks strange and unnecessary on larger-then-13-inch screens.
                   But it helps the user focus on one gravestone at a time! And when the user clicks on a gravestone, a modal opens to the left or right of it! Minimalist websites can be cool! I want candy! </span>
                 </p>
                 <p>
-                  At some point, I would like to revist this project and continue to improve the website.
+                  At some point, I would like to revisit this project and continue to improve the website.
                   While it is easy for me to tear it apart and poke at its flaws, I am also pretty proud of the amount of creativity generated from something as mundane as cheap broken plastic blinds.
                 </p>
               </div>
