@@ -75,13 +75,13 @@
   font-family: 'robotothin_italic', sans-serif;
 }
 /* line 68, ../sass/styles1.scss */
-.body .website-projects li {
-  margin-bottom: 16px;
-}
-/* line 70, ../sass/styles1.scss */
-.body .website-projects li .blue {
+.body .website-projects .blue {
   color: #0000c0;
   font-family: 'robotoregular', sans-serif;
+}
+/* line 72, ../sass/styles1.scss */
+.body .website-projects li {
+  margin-bottom: 16px;
 }
 /* line 75, ../sass/styles1.scss */
 .body .website-projects .img-inspiration {
