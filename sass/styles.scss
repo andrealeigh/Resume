@@ -81,21 +81,23 @@ body {
 
       #about, #core-skills, #employment-blurb {
         font-size: ceil(($font-size-base * 1.25));
-        li:nth-of-type(6) {
+        li:nth-of-type(7) {
           color: rgb(0, 0, 192);
           font-family: 'robotoregular', sans-serif;
         }
         a {
             color: white;
             font-family: 'robotoregular', sans-serif;
+            text-decoration: underline;
             &:hover {
               color: rgb(0, 0, 192);
+              text-decoration: none;
               @include transition;
             }
         }
-      }
-      a:hover {
-        text-decoration: none;
+        .more {
+          font-family: 'robotothin_italic', sans-serif;
+        }
       }
       a button.btn.btn-default {
         font-family: 'robotoregular', sans-serif;
